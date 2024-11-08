@@ -1,4 +1,4 @@
-package com.example.recipewise
+package app.recipewise.box
 
 import io.flutter.embedding.android.FlutterActivity
 

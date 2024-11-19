@@ -1,0 +1,208 @@
+{
+    "@context": "http://schema.org",
+    "@type": ["Recipe","NewsArticle"],
+    "headline": "Cranberry Cheese Ball",
+    "datePublished": "2024-11-09T11:00:00.000-05:00",
+    "dateModified": "2024-11-09T11:00:00.000-05:00",
+    "author": [
+        {"@type": "Person"
+        ,"name": "Juliana Hale"
+        ,"url": "https://www.allrecipes.com/author/juliana-hale/"
+        }
+    ],
+    "description": "This cranberry cheese ball with orange zest, sharp white Cheddar cheese, and garlic is simply delicious. The red and green color combination from cranberries and chives make it look extra festive and it&#39;s the perfect holiday appetizer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/2oUZc4nK-xuUYYPkIhGLD5SU6Yg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-hero-4x3-17403-29c16f7a15dc41df9434296721e8e641.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes", 
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines", 
+        "sameAs" : [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Cranberry Cheese Ball",
+    "nutrition": {
+        "@type": "NutritionInformation"
+        ,"calories": "134 kcal"
+        ,"carbohydrateContent": "6 g"
+        ,"cholesterolContent": "29 mg"
+        ,"fiberContent": "0 g"
+        ,"proteinContent": "3 g"
+        ,"saturatedFatContent": "6 g"
+        ,"sodiumContent": "113 mg"
+        ,"sugarContent": "5 g"
+        ,"fatContent": "11 g"
+        ,"unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M", 
+    "recipeCategory": ["Appetizer"],
+    "recipeCuisine": ["American"],
+    "recipeIngredient": [
+        "1/4 cup cranberry juice cocktail",
+        "1/2 cup dried cranberries, snipped, divided",
+        "1 (8-ounce) pkg. cream cheese",
+        "4 ounces sharp white cheddar cheese, shredded (1 cup)",
+        "1/4 cup butter",
+        "2 tablespoons snipped fresh chives, divided",
+        "1/2 teaspoon orange zest",
+        "1/2 teaspoon packed brown sugar",
+        "1/2 teaspoon garlic powder",
+        "1/4 cup pecans, toasted and finely chopped",
+        "Crackers, crostini, and/or vegetable dippers" 
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/6pZBhSnVzCXYrJ3222cP7m-5GuI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-01-17155-4e00ac4308224c499547279f25ec0e75.jpg"
+            }
+            ]
+            ,"text": "Gather all ingredients. "
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/EMMqTZfdOvcxtX7bSjSvwwvhBYc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-02-17159-2bcd388e73624eb8a4c416fbc616adc6.jpg"
+            }
+            ]
+            ,"text": "Bring cranberry juice just to a boil in a small saucepan. Remove from heat. Add 1/4 cup dried cranberries. Cover; set aside."
+        },
+            {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/0sSs_LPda_k_iYdBJmmkFzeguCw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-03-17162-6dac37838d1c4a26b2c97038669f6f23.jpg"
+            }
+            ]
+            ,"text": "Place cream cheese, Cheddar cheese, and butter in a large bowl. Let stand at room temperature for 30 minutes."
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/rvH5jKaUjrpbNQ8mwsw-1k8a2PQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-04-17164-583c59c8e596436aa3f6c09d0c7199de.jpg"
+            }
+            ]
+            ,"text": "Drain cranberries, reserving 1 tablespoon juice. Add plumped cranberries and reserved juice to the bowl with the cheese mixture. Add 1 tablespoon chives, orange zest, brown sugar, and garlic powder. Beat with an electric mixer on medium until light and fluffy. "
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Bwt-Ze5sappOMqvG6zDnsZns8sM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-05-17167-dbb0fb5c6aba4c649339d7d63d893639.jpg"
+            }
+            ]
+            ,"text": "Place cheese mixture on a sheet of plastic wrap. Use the plastic wrap to shape the mixture into a ball (it won’t be a perfect shape at this point). Wrap in the plastic wrap and chill in the refrigerator for 3 to 24 hours."
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/-EOwqt61n0HSUJv83MwmReJP0yU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-06-17352-460d3f3a8c5a4b27a88e84fa7fde964d.jpg"
+            }
+            ]
+            ,"text": "Now you can make a better ball shape by rolling the wrapped mixture on your work surface."
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/XBNS-1zgWxi2rgBYeACKhCqmUxw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-07-17355-0fac98aeae4747e7ac882722e0b9d9ae.jpg"
+            }
+            ]
+            ,"text": "Sprinkle remaining 1/4 cup dried cranberries, remaining 1 tablespoon chives, and the pecans on a sheet of plastic wrap or waxed paper. Roll cheese ball in the mixture to coat."
+        },
+        {
+            "@type": "HowToStep"
+            ,"image": [
+            {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/s7F7X2dlGMYK4JUA0n7rzTLE6cM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-Step-08-17359-7f2300c121a14d5ba143226c58c8ae88.jpg"
+            }
+            ]
+            ,"text": "Let stand 15 minutes before serving with crackers, crostini, or vegetable dippers."
+        }
+    ],
+    "recipeYield": ["16"],
+    "totalTime": "PT255M",
+    "mainEntityOfPage": {
+        "@type": ["WebPage"]
+        ,"@id": "https://www.allrecipes.com/cranberry-cheese-ball-recipe-8726774"
+        ,"breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+        {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+        "@id": "https://www.allrecipes.com/recipes/76/appetizers-and-snacks/",
+        "name": "Appetizers and Snacks"
+        }
+        }
+        ,
+        {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+        "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+        "name": "Dips and Spreads Recipes"
+        }
+        }
+        ,
+        {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+        "@id": "https://www.allrecipes.com/recipes/17192/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/",
+        "name": "Cheese Dips and Spreads Recipes"
+        }
+        }
+        ,
+        {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+        "@id": "https://www.allrecipes.com/recipes/404/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/cheese-balls/",
+        "name": "Cheese Ball Recipes"
+        }
+        }
+        ]
+        },"reviewedBy": [
+        {"@type": "Person"
+        ,"name": "Sarah Brekke"
+        ,"url": "https://www.allrecipes.com/author/sarah-brekke/"
+        }
+        ]
+        ,"lastReviewed": "2024-11-09T11:00:00.000-05:00"
+    } 
+}

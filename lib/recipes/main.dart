@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:recipewise/core/theme/theme.dart';
 import 'package:recipewise/recipes/recipe.dart';
 import 'package:recipewise/recipes/views/recipes_screen.dart';
-import 'package:recipewise/theme.dart';
 
 main() {
   runApp(const MyApp());
@@ -60,7 +60,11 @@ class MyApp extends StatelessWidget {
         return recipes;
       },
       child: MaterialApp(
-        theme: theme,
+        title: 'RecipeWise',
+        theme: lightTheme(),
+        darkTheme: darkTheme(),
+        themeMode: ThemeMode.light,
+        debugShowCheckedModeBanner: false,
         home: RecipesScreen(),
       ),
     );

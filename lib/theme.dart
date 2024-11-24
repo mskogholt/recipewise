@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-ColorScheme colorScheme = ColorScheme.fromSeed(seedColor: const Color(0xFF2e75b5));
+ColorScheme colorScheme =
+    ColorScheme.fromSeed(seedColor: const Color(0xFF007248));
 
 final theme = ThemeData(
   colorScheme: colorScheme,
@@ -14,6 +15,18 @@ final theme = ThemeData(
       backgroundColor: colorScheme.primary,
     ),
   ),
+  // outlinedButtonTheme: OutlinedButtonThemeData(
+  //   style: OutlinedButton.styleFrom(
+  //     // shape: RoundedRectangleBorder(
+  //     //   borderRadius: BorderRadius.circular(30),
+  //     // ),
+  //     foregroundColor: colorScheme.primary,
+  //     backgroundColor: Colors.white,
+  //     textStyle: TextStyle(
+  //       color: Colors.black,
+  //     ),
+  //   ),
+  // ),
   inputDecorationTheme: const InputDecorationTheme(
     contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
     border: OutlineInputBorder(

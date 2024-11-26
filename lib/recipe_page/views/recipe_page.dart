@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:recipe_repository/recipe_repository.dart';
-import 'package:authentication_repository/authentication_repository.dart';
 
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 

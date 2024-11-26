@@ -18,7 +18,6 @@ import 'package:recipewise/recipe_list/views/recipe_list_page.dart';
 import 'firebase_options.dart';
 
 import 'package:recipewise/authentication/authentication.dart';
-import 'package:recipewise/home/home.dart';
 
 import 'package:recipewise/bloc_observer.dart';
 import 'package:recipewise/core/theme/theme.dart';

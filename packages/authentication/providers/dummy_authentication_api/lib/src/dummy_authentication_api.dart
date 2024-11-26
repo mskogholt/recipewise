@@ -1,14 +1,15 @@
+// ignore_for_file: public_member_api_docs
+
 import 'dart:async';
 
 import 'package:authentication_api/authentication_api.dart';
 
 class DummyAuthenticationApi implements AuthenticationApi {
-  final StreamController<User> streamer = StreamController<User>();
-  User current = User.empty;
-
   DummyAuthenticationApi() {
     streamer.add(User.empty);
   }
+  final StreamController<User> streamer = StreamController<User>();
+  User current = User.empty;
 
   @override
   User get currentUser => current;
@@ -18,8 +19,8 @@ class DummyAuthenticationApi implements AuthenticationApi {
     required String email,
     required String password,
   }) async {
-    await Future.delayed(const Duration(seconds: 2));
-    User user = User(
+    await Future.delayed(const Duration(seconds: 2), () {});
+    final user = User(
       id: email,
       email: email,
     );
@@ -31,7 +32,7 @@ class DummyAuthenticationApi implements AuthenticationApi {
 
   @override
   Future<void> signOut() {
-    User user = User.empty;
+    const user = User.empty;
     current = user;
     streamer.add(user);
     return Future(() {});
@@ -39,7 +40,7 @@ class DummyAuthenticationApi implements AuthenticationApi {
 
   @override
   Future<void> signUp({required String email, required String password}) async {
-    await Future.delayed(const Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2), () {});
     return Future(() {});
   }
 

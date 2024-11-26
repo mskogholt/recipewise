@@ -5,7 +5,6 @@ import 'package:authentication_repository/authentication_repository.dart';
 import 'package:recipe_repository/recipe_repository.dart';
 
 import 'package:recipewise/recipe_list/bloc/recipe_list_bloc.dart';
-import 'package:recipewise/recipe_list/views/recipe_page.dart';
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 import 'package:recipewise/recipe_page/views/recipe_page.dart';
 

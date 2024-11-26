@@ -2,6 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+// Authentication
+import 'package:authentication_repository/authentication_repository.dart';
+import 'package:firebase_authentication_api/firebase_authentication_api.dart';
+
+// Recipes
+import 'package:recipe_api/recipe_api.dart' hide Recipe;
+import 'package:firebase_recipe_api/firebase_recipe_api.dart';
+import 'package:recipe_repository/recipe_repository.dart';
+import 'package:recipewise/recipe_list/views/recipe_list_page.dart';
+
+// Local
 import 'firebase_options.dart';
 
 import 'package:recipewise/authentication/authentication.dart';
@@ -18,21 +31,31 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  // In firebase case it is safe to wait for user.first
-  // final authenticationRepository = AuthenticationRepository(
-  //   authenticationApi: FirebaseAuthenticationApi(),
-  // );
-  // await authenticationRepository.user.first;
+  // Authentication Repository
+  FirebaseAuthenticationApi firebaseAuthenticationApi =
+      FirebaseAuthenticationApi();
 
   final authenticationRepository = AuthenticationRepository(
-    authenticationApi: DummyAuthenticationApi(),
+    authenticationApi: firebaseAuthenticationApi,
   );
+  await authenticationRepository.user.first;
+
+  await authenticationRepository.signInWithEmailAndPassword(
+    email: 'recipewise.6d9l7@passmail.net',
+    password: 'Squishier3-Unburned7-Ripening6-Retaining8-Epidermis9',
+  );
+
+  RecipeApi recipeApi = FirebaseRecipeApi(database: FirebaseFirestore.instance);
+  RecipeRepository recipeRepository = RecipeRepository(recipeApi: recipeApi);
 
   runApp(
     MultiRepositoryProvider(
       providers: [
         RepositoryProvider(
           create: (context) => authenticationRepository,
+        ),
+        RepositoryProvider(
+          create: (context) => recipeRepository,
         ),
       ],
       child: BlocProvider(
@@ -60,7 +83,7 @@ class App extends StatelessWidget {
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
         builder: (context, state) {
           return state.status == AuthenticationStatus.authenticated
-              ? const HomePage()
+              ? const RecipeListPage()
               : const SignInPage();
         },
       ),

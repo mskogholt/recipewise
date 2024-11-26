@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:recipewise/authentication/data/providers/authentication_api.dart';
+import 'package:authentication_repository/authentication_repository.dart';
+
 import 'package:recipewise/authentication/widgets/email_field.dart';
 import 'package:recipewise/authentication/widgets/password_field.dart';
-import 'package:recipewise/authentication/data/repository/authentication_repository.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -99,7 +99,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                       if (context.mounted) {
                                         Navigator.pop(context);
                                       }
-                                    } on SignInWithEmailAndPasswordFailure catch (error) {
+                                    } on SignUpWithEmailAndPasswordFailure catch (error) {
                                       if (context.mounted) {
                                         ScaffoldMessenger.of(context)
                                           ..hideCurrentSnackBar()

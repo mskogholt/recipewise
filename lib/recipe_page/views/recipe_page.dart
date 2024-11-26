@@ -88,15 +88,9 @@ class RecipeView extends StatelessWidget {
                               MediaQuery.of(innerContext).viewInsets.bottom),
                       child: AddTaskScreen(
                         callback: (controller) {
-                          // Provider.of<Tasks>(context, listen: false).addTask(
-                          //   Task(name: controller.text),
-                          // );
-                          // setState(() {
-                          //   recipe.title = controller.text;
-                          // });
                           context.read<RecipeBloc>().add(
                                 RecipeUpdatedEvent(
-                                  recipe.copyWith(
+                                  recipe: recipe.copyWith(
                                     title: controller.text,
                                   ),
                                 ),

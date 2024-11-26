@@ -8,7 +8,7 @@ sealed class RecipeEvent extends Equatable {
 }
 
 final class RecipeUpdatedEvent extends RecipeEvent {
-  const RecipeUpdatedEvent(this.recipe);
+  const RecipeUpdatedEvent({required this.recipe});
 
   final Recipe recipe;
 
@@ -18,4 +18,8 @@ final class RecipeUpdatedEvent extends RecipeEvent {
 
 final class RecipeSavedEvent extends RecipeEvent {
   const RecipeSavedEvent();
+}
+
+final class RecipeDeletedEvent extends RecipeEvent {
+  const RecipeDeletedEvent();
 }

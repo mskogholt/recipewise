@@ -17,12 +17,12 @@ class RecipeListBloc extends Bloc<RecipeListEvent, RecipeListState> {
           const RecipeListState(),
         ) {
     //
-    on<RecipeSubscriptionRequested>(_onSubscriptionRequested);
-    on<RecipeAdded>(_onRecipeAdded);
+    on<RecipeListSubscribedEvent>(_onSubscriptionRequested);
+    on<RecipeAddedEvent>(_onRecipeAdded);
   }
 
   Future<void> _onRecipeAdded(
-    RecipeAdded event,
+    RecipeAddedEvent event,
     Emitter<RecipeListState> emit,
   ) async {
     recipeRepository.saveRecipe(
@@ -32,7 +32,7 @@ class RecipeListBloc extends Bloc<RecipeListEvent, RecipeListState> {
   }
 
   Future<void> _onSubscriptionRequested(
-    RecipeSubscriptionRequested event,
+    RecipeListSubscribedEvent event,
     Emitter<RecipeListState> emit,
   ) async {
     emit(state.copyWith(status: RecipeListStatus.loading));

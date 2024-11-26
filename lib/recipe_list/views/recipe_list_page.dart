@@ -17,7 +17,7 @@ class RecipeListPage extends StatelessWidget {
       create: (context) => RecipeListBloc(
         authenticationRepository: context.read<AuthenticationRepository>(),
         recipeRepository: context.read<RecipeRepository>(),
-      )..add(const RecipeSubscriptionRequested()),
+      )..add(const RecipeListSubscribedEvent()),
       child: RecipeListView(),
     );
   }

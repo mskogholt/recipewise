@@ -1,0 +1,17 @@
+name: firebase_recipe_api
+description: Firebase API for storing and retrieving recipes
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cloud_firestore: ^5.5.0
+  recipe_api:
+    path: ../recipe_api
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.7
+  very_good_analysis: ^6.0.0

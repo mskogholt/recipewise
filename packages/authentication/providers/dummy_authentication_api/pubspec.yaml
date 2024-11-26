@@ -1,0 +1,16 @@
+name: dummy_authentication_api
+description: The interface and models for a dummy API providing authentication
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  authentication_api:
+    path: ../authentication_api
+
+dev_dependencies:
+  mocktail: ^1.0.4
+  test: ^1.25.8
+  very_good_analysis: ^6.0.0

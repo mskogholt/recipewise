@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:authentication_repository/authentication_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:recipewise/authentication/data/repository/authentication_repository.dart';
-import 'package:recipewise/authentication/data/repository/user.dart';
+
 part 'authentication_event.dart';
 part 'authentication_state.dart';
 
@@ -14,10 +14,14 @@ class AuthenticationBloc
   late final StreamSubscription<User> userSubscription;
 
   AuthenticationBloc({required this.authenticationRepository})
-      : super(authenticationRepository.currentUser.isEmpty
-            ? const AuthenticationState.unauthenticated()
-            : AuthenticationState.authenticated(
-                authenticationRepository.currentUser)) {
+      : super(
+          authenticationRepository.currentUser.isEmpty
+              ? const AuthenticationState.unauthenticated()
+              : AuthenticationState.authenticated(
+                  authenticationRepository.currentUser,
+                ),
+        ) {
+    //
     userSubscription = authenticationRepository.user.listen(
       (user) => add(UserChanged(user)),
     );

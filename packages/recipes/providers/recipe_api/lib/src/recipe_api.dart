@@ -1,3 +1,5 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:recipe_api/recipe_api.dart';
 
 abstract interface class RecipeApi {
@@ -9,7 +11,7 @@ abstract interface class RecipeApi {
 
   Future<void> deleteRecipe(String uid, String id);
 
-  // TODO: Is this necessary?
+  // TODO(mskogholt): Is this necessary?
   Future<void> close();
 }
 

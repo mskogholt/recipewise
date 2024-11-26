@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:recipe_repository/recipe_repository.dart';
+import 'package:recipewise/authentication/authentication.dart';
 
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 
@@ -28,16 +29,16 @@ class RecipeView extends StatelessWidget {
           appBar: AppBar(
             title: const Text('Recipe'),
             actions: <Widget>[
-              // IconButton(
-              //   key: const Key('RecipePage_logout_iconButton'),
-              //   icon: const Icon(Icons.exit_to_app),
-              //   onPressed: () {
-              //     context.read<AppBloc>().add(const AppLogoutRequested());
-              //   },
-              // ),
               IconButton(
                 onPressed: () {
-                  Navigator.pop(context, state.recipe);
+                  context.read<RecipeBloc>().add(RecipeSavedEvent());
+                },
+                icon: const Icon(Icons.save),
+              ),
+              IconButton(
+                onPressed: () {
+                  context.read<AuthenticationBloc>().add(SignOutRequested());
+                  Navigator.pop(context);
                 },
                 icon: const Icon(Icons.exit_to_app),
               )
@@ -78,27 +79,31 @@ class RecipeView extends StatelessWidget {
             onPressed: () {
               showModalBottomSheet(
                 context: context,
-                builder: (context) => SingleChildScrollView(
-                  child: Container(
-                    padding: EdgeInsets.only(
-                        bottom: MediaQuery.of(context).viewInsets.bottom),
-                    child: AddTaskScreen(
-                      callback: (controller) {
-                        // Provider.of<Tasks>(context, listen: false).addTask(
-                        //   Task(name: controller.text),
-                        // );
-                        // setState(() {
-                        //   recipe.title = controller.text;
-                        // });
-                        context.read<RecipeBloc>().add(
-                              RecipeEvent(
-                                recipe.copyWith(
-                                  title: controller.text,
+                builder: (innerContext) => BlocProvider.value(
+                  value: BlocProvider.of<RecipeBloc>(context),
+                  child: SingleChildScrollView(
+                    child: Container(
+                      padding: EdgeInsets.only(
+                          bottom:
+                              MediaQuery.of(innerContext).viewInsets.bottom),
+                      child: AddTaskScreen(
+                        callback: (controller) {
+                          // Provider.of<Tasks>(context, listen: false).addTask(
+                          //   Task(name: controller.text),
+                          // );
+                          // setState(() {
+                          //   recipe.title = controller.text;
+                          // });
+                          context.read<RecipeBloc>().add(
+                                RecipeUpdatedEvent(
+                                  recipe.copyWith(
+                                    title: controller.text,
+                                  ),
                                 ),
-                              ),
-                            );
-                        Navigator.pop(context);
-                      },
+                              );
+                          Navigator.pop(context);
+                        },
+                      ),
                     ),
                   ),
                 ),
@@ -116,196 +121,6 @@ class RecipeView extends StatelessWidget {
     );
   }
 }
-
-// class RecipePage extends StatefulWidget {
-//   Recipe recipe;
-
-//   RecipePage({super.key, required this.recipe});
-
-//   @override
-//   State<RecipePage> createState() => _RecipePageState(recipe: recipe);
-// }
-
-// class _RecipePageState extends State<RecipePage> {
-//   Recipe recipe;
-
-//   _RecipePageState({required this.recipe});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     final textTheme = Theme.of(context).textTheme;
-
-//     return Scaffold(
-//       backgroundColor: Colors.white,
-//       appBar: AppBar(
-//         title: const Text('Ingredients'),
-//         actions: <Widget>[
-//           // IconButton(
-//           //   key: const Key('RecipePage_logout_iconButton'),
-//           //   icon: const Icon(Icons.exit_to_app),
-//           //   onPressed: () {
-//           //     context.read<AppBloc>().add(const AppLogoutRequested());
-//           //   },
-//           // ),
-//           IconButton(
-//             onPressed: () {
-//               Navigator.pop(context, recipe);
-//             },
-//             icon: const Icon(Icons.exit_to_app),
-//           )
-//         ],
-//       ),
-//       body: SafeArea(
-//         child: Center(
-//           child: ListView(
-//             children: [
-//               Image.network(
-//                   'https://cors-proxy.logmeinmail.workers.dev/?url=${recipe.imageUrl}'),
-//               TitleWidget(recipe: recipe, textTheme: textTheme),
-//               Container(
-//                 margin: EdgeInsets.fromLTRB(8, 30, 8, 30),
-//                 child: Text(recipe.description),
-//               ),
-//               // Ingredients
-//               Padding(
-//                 padding: const EdgeInsets.all(8.0),
-//                 child: IngredientsWidget(
-//                   recipe: recipe,
-//                   textTheme: textTheme,
-//                 ),
-//               ),
-//               // Directions
-//               Text(
-//                 "Directions:",
-//                 style: textTheme.titleLarge,
-//               ),
-//               Text(
-//                 recipe.directions,
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () {
-//           showModalBottomSheet(
-//             context: context,
-//             builder: (context) => SingleChildScrollView(
-//               child: Container(
-//                 padding: EdgeInsets.only(
-//                     bottom: MediaQuery.of(context).viewInsets.bottom),
-//                 child: AddTaskScreen(
-//                   callback: (controller) {
-//                     // Provider.of<Tasks>(context, listen: false).addTask(
-//                     //   Task(name: controller.text),
-//                     // );
-//                     setState(() {
-//                       recipe.title = controller.text;
-//                     });
-//                     Navigator.pop(context);
-//                   },
-//                 ),
-//               ),
-//             ),
-//             isScrollControlled: true,
-//           );
-//         },
-//         backgroundColor: Colors.lightBlueAccent,
-//         child: const Icon(
-//           Icons.add,
-//           color: Colors.white,
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// class RecipePage extends StatelessWidget {
-//   Recipe recipe;
-
-//   const RecipePage({super.key, required this.recipe});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     final textTheme = Theme.of(context).textTheme;
-
-//     return Scaffold(
-//       backgroundColor: Colors.white,
-//       // appBar: AppBar(
-//       //   title: const Text('Ingredients'),
-//       //   actions: <Widget>[
-//       //     IconButton(
-//       //       key: const Key('RecipePage_logout_iconButton'),
-//       //       icon: const Icon(Icons.exit_to_app),
-//       //       onPressed: () {
-//       //         context.read<AppBloc>().add(const AppLogoutRequested());
-//       //       },
-//       //     ),
-//       //   ],
-//       // ),
-//       body: SafeArea(
-//         child: Center(
-//           child: ListView(
-//             children: [
-//               Image.network(
-//                   'https://cors-proxy.logmeinmail.workers.dev/?url=${recipe.imageUrl}'),
-//               TitleWidget(recipe: recipe, textTheme: textTheme),
-//               Container(
-//                 margin: EdgeInsets.fromLTRB(8, 30, 8, 30),
-//                 child: Text(recipe.description),
-//               ),
-//               // Ingredients
-//               Padding(
-//                 padding: const EdgeInsets.all(8.0),
-//                 child: IngredientsWidget(
-//                   recipe: recipe,
-//                   textTheme: textTheme,
-//                 ),
-//               ),
-//               // Directions
-//               Text(
-//                 "Directions:",
-//                 style: textTheme.titleLarge,
-//               ),
-//               Text(
-//                 recipe.directions,
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () {
-//           showModalBottomSheet(
-//             context: context,
-//             builder: (context) => SingleChildScrollView(
-//               child: Container(
-//                 padding: EdgeInsets.only(
-//                     bottom: MediaQuery.of(context).viewInsets.bottom),
-//                 child: AddTaskScreen(
-//                   callback: (controller) {
-//                     // Provider.of<Tasks>(context, listen: false).addTask(
-//                     //   Task(name: controller.text),
-//                     // );
-//                     recipe = recipe.copyWith(title: controller.text);
-//                     Navigator.pop(context);
-//                   },
-//                 ),
-//               ),
-//             ),
-//             isScrollControlled: true,
-//           );
-//         },
-//         backgroundColor: Colors.lightBlueAccent,
-//         child: const Icon(
-//           Icons.add,
-//           color: Colors.white,
-//         ),
-//       ),
-//     );
-//   }
-
-// }
 
 class AddTaskScreen extends StatelessWidget {
   final TextEditingController controller = TextEditingController();

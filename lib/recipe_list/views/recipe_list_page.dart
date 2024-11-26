@@ -93,18 +93,18 @@ class RecipeList extends StatelessWidget {
                 builder: (context) {
                   return BlocProvider(
                     create: (context) {
-                      return RecipeBloc(recipe);
+                      return RecipeBloc(
+                        recipe: recipe,
+                        authenticationRepository:
+                            context.read<AuthenticationRepository>(),
+                        recipeRepository: context.read<RecipeRepository>(),
+                      );
                     },
                     child: RecipePage(),
                   );
                 },
               ),
             );
-            // Recipe? recip = await Navigator.push<Recipe>(
-            //     context,
-            //     MaterialPageRoute(
-            //         builder: (context) => RecipePage(recipe: recipe)));
-            // recipes.update(index, recip);
           },
           leading: Image.network(
               'https://cors-proxy.logmeinmail.workers.dev/?url=${recipe.imageUrl}'),

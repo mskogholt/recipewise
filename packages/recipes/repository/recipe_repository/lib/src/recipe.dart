@@ -25,6 +25,23 @@ class Ingredient extends Equatable {
 }
 
 class Recipe extends Equatable {
+  const Recipe({
+    required this.id,
+    required this.title,
+    required this.description,
+    required this.imageUrl,
+    required this.author,
+    required this.datePublished,
+    required this.source,
+    required this.yield,
+    required this.timePrep,
+    required this.timeTotal,
+    required this.categories,
+    required this.tags,
+    required this.collections,
+    required this.directions,
+    required this.ingredients,
+  });
   final String id;
   final String title;
   final String description;
@@ -45,24 +62,6 @@ class Recipe extends Equatable {
   final String directions;
 
   final List<Ingredient> ingredients;
-
-  const Recipe({
-    required this.id,
-    required this.title,
-    required this.description,
-    required this.imageUrl,
-    required this.author,
-    required this.datePublished,
-    required this.source,
-    required this.yield,
-    required this.timePrep,
-    required this.timeTotal,
-    required this.categories,
-    required this.tags,
-    required this.collections,
-    required this.directions,
-    required this.ingredients,
-  });
 
   @override
   List<Object?> get props => [title];

@@ -75,7 +75,7 @@ class FirebaseRecipeApi implements RecipeApi {
 
   @override
   Future<void> close() {
-    // TODO: implement close
+    // TODO(mskogholt): implement close
     throw UnimplementedError();
   }
 }

@@ -1,10 +1,11 @@
-import 'package:authentication_repository/authentication_repository.dart';
+// ignore_for_file: public_member_api_docs
+
 import 'package:authentication_api/authentication_api.dart' as auth_api;
+import 'package:authentication_repository/authentication_repository.dart';
 
 class AuthenticationRepository {
-  final auth_api.AuthenticationApi authenticationApi;
-
   AuthenticationRepository({required this.authenticationApi});
+  final auth_api.AuthenticationApi authenticationApi;
 
   User convertAuthenticationUser(auth_api.User authenticationUser) {
     final user = User(

@@ -1,6 +1,7 @@
+// ignore_for_file: public_member_api_docs
+
 import 'package:authentication_api/authentication_api.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
-// import 'package:firebase_auth/firebase_auth.dart' as firebaseUser show User;
 
 class FirebaseSignUpWithEmailAndPasswordFailure
     extends SignUpWithEmailAndPasswordFailure {
@@ -73,11 +74,10 @@ class FirebaseSignInWithEmailAndPasswordFailure
 }
 
 class FirebaseAuthenticationApi implements AuthenticationApi {
-  final firebase_auth.FirebaseAuth _firebaseAuth;
-
   FirebaseAuthenticationApi({
     firebase_auth.FirebaseAuth? firebaseAuth,
   }) : _firebaseAuth = firebaseAuth ?? firebase_auth.FirebaseAuth.instance;
+  final firebase_auth.FirebaseAuth _firebaseAuth;
 
   User convertFirebaseUser(firebase_auth.User? firebaseUser) {
     if (firebaseUser == null) {

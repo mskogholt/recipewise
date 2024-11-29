@@ -7,13 +7,13 @@ sealed class RecipeListEvent extends Equatable {
   List<Object> get props => [];
 }
 
-final class RecipeSubscriptionRequested extends RecipeListEvent {
-  const RecipeSubscriptionRequested();
+final class RecipeListSubscribedEvent extends RecipeListEvent {
+  const RecipeListSubscribedEvent();
 }
 
-final class RecipeAdded extends RecipeListEvent {
+final class RecipeAddedEvent extends RecipeListEvent {
   final Recipe recipeToAdd;
-  const RecipeAdded({required this.recipeToAdd});
+  const RecipeAddedEvent({required this.recipeToAdd});
 
   @override
   List<Object> get props => [recipeToAdd];

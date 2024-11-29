@@ -5,7 +5,6 @@ import 'package:authentication_repository/authentication_repository.dart';
 import 'package:recipe_repository/recipe_repository.dart';
 
 import 'package:recipewise/recipe_list/bloc/recipe_list_bloc.dart';
-import 'package:recipewise/recipe_list/views/recipe_page.dart';
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 import 'package:recipewise/recipe_page/views/recipe_page.dart';
 
@@ -16,9 +15,8 @@ class RecipeListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => RecipeListBloc(
-        authenticationRepository: context.read<AuthenticationRepository>(),
         recipeRepository: context.read<RecipeRepository>(),
-      )..add(const RecipeSubscriptionRequested()),
+      )..add(const RecipeListSubscribedEvent()),
       child: RecipeListView(),
     );
   }
@@ -94,18 +92,16 @@ class RecipeList extends StatelessWidget {
                 builder: (context) {
                   return BlocProvider(
                     create: (context) {
-                      return RecipeBloc(recipe);
+                      return RecipeBloc(
+                        recipe: recipe,
+                        recipeRepository: context.read<RecipeRepository>(),
+                      );
                     },
                     child: RecipePage(),
                   );
                 },
               ),
             );
-            // Recipe? recip = await Navigator.push<Recipe>(
-            //     context,
-            //     MaterialPageRoute(
-            //         builder: (context) => RecipePage(recipe: recipe)));
-            // recipes.update(index, recip);
           },
           leading: Image.network(
               'https://cors-proxy.logmeinmail.workers.dev/?url=${recipe.imageUrl}'),

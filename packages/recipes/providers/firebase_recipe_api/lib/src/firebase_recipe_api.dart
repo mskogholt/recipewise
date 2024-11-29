@@ -17,6 +17,27 @@ class FirebaseRecipeApi implements RecipeApi {
       title: data?['title'] as String,
       description: data?['description'] as String,
       imageUrl: data?['imageUrl'] as String,
+      author: data?['author'] as String,
+      datePublished: (data?['datePublished'] as Timestamp).toDate(),
+      source: data?['source'] as String,
+      servings: data?['yield'] as int,
+      timePrep: data?['timePrep'] as int,
+      timeTotal: data?['timeTotal'] as int,
+      categories: data?['categories'] as String,
+      tags: data?['tags'] as String,
+      collections: data?['collections'] as String,
+      directions: data?['directions'] as String,
+      ingredients: data?['ingredients'] is Iterable
+          ? (data?['ingredients'] as List).map(
+              (ingredient) {
+                return Ingredient(
+                  name: ingredient['name'] as String,
+                  amount: ingredient['amount'] as double,
+                  unit: ingredient['unit'] as String,
+                );
+              },
+            ).toList()
+          : const [],
     );
   }
 
@@ -26,6 +47,23 @@ class FirebaseRecipeApi implements RecipeApi {
       'title': recipe.title,
       'description': recipe.description,
       'imageUrl': recipe.imageUrl,
+      'author': recipe.author,
+      'datePublished': recipe.datePublished,
+      'source': recipe.source,
+      'yield': recipe.servings,
+      'timePrep': recipe.timePrep,
+      'timeTotal': recipe.timeTotal,
+      'categories': recipe.categories,
+      'tags': recipe.tags,
+      'collections': recipe.collections,
+      'directions': recipe.directions,
+      'ingredients': recipe.ingredients.map((ingredient) {
+        return {
+          'name': ingredient.name,
+          'amount': ingredient.amount,
+          'unit': ingredient.unit,
+        };
+      }),
     };
   }
 
@@ -75,7 +113,7 @@ class FirebaseRecipeApi implements RecipeApi {
 
   @override
   Future<void> close() {
-    // TODO: implement close
+    // TODO(mskogholt): implement close
     throw UnimplementedError();
   }
 }

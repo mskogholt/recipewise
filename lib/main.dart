@@ -18,7 +18,6 @@ import 'package:recipewise/recipe_list/views/recipe_list_page.dart';
 import 'firebase_options.dart';
 
 import 'package:recipewise/authentication/authentication.dart';
-import 'package:recipewise/home/home.dart';
 
 import 'package:recipewise/bloc_observer.dart';
 import 'package:recipewise/core/theme/theme.dart';
@@ -40,13 +39,12 @@ Future<void> main() async {
   );
   await authenticationRepository.user.first;
 
-  await authenticationRepository.signInWithEmailAndPassword(
-    email: 'recipewise.6d9l7@passmail.net',
-    password: 'Squishier3-Unburned7-Ripening6-Retaining8-Epidermis9',
-  );
+  // await authenticationRepository.signInWithEmailAndPassword(
+  //   email: 'recipewise.6d9l7@passmail.net',
+  //   password: 'Squishier3-Unburned7-Ripening6-Retaining8-Epidermis9',
+  // );
 
   RecipeApi recipeApi = FirebaseRecipeApi(database: FirebaseFirestore.instance);
-  RecipeRepository recipeRepository = RecipeRepository(recipeApi: recipeApi);
 
   runApp(
     MultiRepositoryProvider(
@@ -54,39 +52,58 @@ Future<void> main() async {
         RepositoryProvider(
           create: (context) => authenticationRepository,
         ),
-        RepositoryProvider(
-          create: (context) => recipeRepository,
-        ),
       ],
       child: BlocProvider(
         create: (context) => AuthenticationBloc(
           authenticationRepository: context.read<AuthenticationRepository>(),
         ),
-        child: const App(),
+        child: MaterialApp(
+          title: 'RecipeWise',
+          theme: lightTheme(),
+          darkTheme: darkTheme(),
+          themeMode: ThemeMode.light,
+          debugShowCheckedModeBanner: false,
+          home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
+            builder: (context, state) {
+              return state.status == AuthenticationStatus.authenticated
+                  ? RepositoryProvider(
+                      create: (context) => RecipeRepository(
+                        uid: state.user.id,
+                        recipeApi: recipeApi,
+                      ),
+                      child: const RecipeListPage(),
+                    )
+                  : const SignInPage();
+            },
+          ),
+        ),
       ),
     ),
   );
 }
 
-class App extends StatelessWidget {
-  const App({super.key});
+// class App extends StatelessWidget {
+//   const App({super.key});
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'RecipeWise',
-      theme: lightTheme(),
-      darkTheme: darkTheme(),
-      themeMode: ThemeMode.light,
-      debugShowCheckedModeBanner: false,
-      home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
-        builder: (context, state) {
-          return state.status == AuthenticationStatus.authenticated
-              ? const RecipeListPage()
-              : const SignInPage();
-        },
-      ),
-    );
-  }
-}
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'RecipeWise',
+//       theme: lightTheme(),
+//       darkTheme: darkTheme(),
+//       themeMode: ThemeMode.light,
+//       debugShowCheckedModeBanner: false,
+//       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
+//         builder: (context, state) {
+//           return state.status == AuthenticationStatus.authenticated
+//               ? RepositoryProvider(
+//                   create: (context) => RecipeRepository(recipeApi: recipeApi),
+//                   child: const RecipeListPage(),
+//                 )
+//               : const SignInPage();
+//         },
+//       ),
+//     );
+//   }
+// }

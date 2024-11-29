@@ -54,6 +54,7 @@ dependencies:
     path: packages/recipes/providers/recipe_api
   firebase_recipe_api:
     path: packages/recipes/providers/firebase_recipe_api
+  fraction: ^5.0.3
 
 dev_dependencies:
   flutter_test:

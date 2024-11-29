@@ -15,7 +15,6 @@ class RecipeListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => RecipeListBloc(
-        authenticationRepository: context.read<AuthenticationRepository>(),
         recipeRepository: context.read<RecipeRepository>(),
       )..add(const RecipeListSubscribedEvent()),
       child: RecipeListView(),
@@ -95,8 +94,6 @@ class RecipeList extends StatelessWidget {
                     create: (context) {
                       return RecipeBloc(
                         recipe: recipe,
-                        authenticationRepository:
-                            context.read<AuthenticationRepository>(),
                         recipeRepository: context.read<RecipeRepository>(),
                       );
                     },

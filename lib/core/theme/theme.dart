@@ -49,5 +49,15 @@ ThemeData lightTheme() {
         borderRadius: const BorderRadius.all(Radius.circular(32.0)),
       ),
     ),
+    iconButtonTheme: IconButtonThemeData(
+        style: OutlinedButton.styleFrom(
+      foregroundColor: colorScheme.primary,
+      shape: CircleBorder(
+        side: BorderSide(
+          width: 1.0,
+          color: colorScheme.primary,
+        ),
+      ),
+    )),
   );
 }

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Recipe","name":"Blomk\u00e5lsalat","image":["https:\/\/mills.no\/content\/uploads\/2018\/06\/BlomkC3A5lsalat_1920-300x200.jpg","https:\/\/mills.no\/content\/uploads\/2018\/06\/BlomkC3A5lsalat_1920-1024x683.jpg","https:\/\/mills.no\/content\/uploads\/2018\/06\/BlomkC3A5lsalat_1920.jpg"],"author":{"@type":"Person","name":"dekode"},"datePublished":"2018-06-28","description":"Blomk\u00e5lsalat er en lett og frisk tilbeh\u00f8rsalat som passer ypperlig til grillbordet. Blomk\u00e5l er en god kilde til vitamin C, i tillegg til \u00e5 ha en god og mild smak som egner seg godt som tilbeh\u00f8r til grillmat som laks og magert kj\u00f8tt. N\u00e5r blomk\u00e5len er r\u00e5 beholder man ogs\u00e5 flere av n\u00e6ringsstoffene, som blant annet folat. \n","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"3"},"prepTime":"PT0S","cookTime":"PT15M","totalTime":"PT15M","recipeYield":4,"recipeCategory":"Grill, Snacks og tilbeh\u00f8r, Vegetar","recipeIngredient":["400 gram r\u00e5 blomk\u00e5l","165 gram Vita Hjertego&#8217; Lettmajones","1 dl lett cr\u00e8me fra\u00eeche","2 ss eplecidereddik","3 stk v\u00e5rl\u00f8k","2 ss fersk bladpersille","0.5 ts pepper"],"recipeInstructions":[{"@type":"HowToStep","url":"https:\/\/mills.no\/vita-hjertego\/oppskrift\/blomkalsalat\/#step-1","text":"Del blomk\u00e5len i sm\u00e5 buketter."},{"@type":"HowToStep","url":"https:\/\/mills.no\/vita-hjertego\/oppskrift\/blomkalsalat\/#step-2","text":"Bland sammen Vita hjertego\u2019 Lettmajones, lett creme fraiche og eplecidereddik i en bolle, og r\u00f8r godt om."},{"@type":"HowToStep","url":"https:\/\/mills.no\/vita-hjertego\/oppskrift\/blomkalsalat\/#step-3","text":"Finhakk v\u00e5rl\u00f8k og bladpersille, og vend det inn i majonesblandingen sammen med blomk\u00e5len. Smak til med litt nykvernet pepper."}]}</script>
+		<style id="mills-styles-overrides">
+	body {
+		--wp--preset--color--branding: #83bd47;
+		--wp--preset--font-family--secondary: LL Circular Pro Book Web, arial, sans-serif !important;
+		--theme--header-text-color: #ffffff;
+					--mills--font-size--xs: clamp(0.75rem, 0.6397rem + 0.3676vw, 0.875rem);
+			--mills--font-size--small: clamp(0.875rem, 0.7647rem + 0.3676vw, 1rem);
+			--mills--font-size--base: clamp(1rem, 0.8897rem + 0.3676vw, 1.125rem);
+					--mills--font-size--medium: clamp(1.125rem, 1.0147rem + 0.3676vw, 1.25rem);
+		--mills--font-size--large: clamp(1.25rem, 1.0294rem + 0.7353vw, 1.5rem);
+		--mills--font-size--xl: clamp(1.5rem, 1.2794rem + 0.7353vw, 1.75rem);
+		--mills--font-size--xxl: clamp(1.75rem, 1.3088rem + 1.4706vw, 2.25rem);
+		--mills--font-size--xxxl: clamp(1.75rem, 1rem + 3vw, 3rem);
+		--mills--font-size--huge: clamp(3rem, 2.2500rem + 3vw, 4rem);
+	}
+	</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+		<!-- Google Consent Mode -->
+		<script data-cookieconsent="ignore">
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("consent", "default", {
+				ad_personalization: "denied",
+				ad_storage: "denied",
+				ad_user_data: "denied",
+				analytics_storage: "denied",
+				functionality_storage: "denied",
+				personalization_storage: "denied",
+				security_storage: "granted",
+				wait_for_update: 500,
+			});
+			gtag("set", "ads_data_redaction", true);
+			gtag("set", "url_passthrough", true);
+		</script>
+		<!-- End Google Consent Mode-->
+				<!-- Cookiebot CMP-->
+		<script
+			id="Cookiebot"
+			src="https://consent.cookiebot.com/uc.js"
+			data-cbid="1614c9c1-d347-4317-bfe3-84e90565d13d"
+			data-blockingmode="auto"
+			type="text/javascript"
+			data-consentmode-defaults="disabled"
+					></script>
+		<!-- End Cookiebot CMP -->
+		
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.9 (Yoast SEO v21.9.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>- Vita hjertego&#039;</title>
+	<link rel="canonical" href="https://mills.no/vita-hjertego/oppskrift/blomkalsalat/" />
+	<meta property="og:locale" content="nb_NO" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://mills.no/vita-hjertego/oppskrift/blomkalsalat/" />
+	<meta property="og:site_name" content="Vita hjertego&#039;" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://mills.no/vita-hjertego/oppskrift/blomkalsalat/","url":"https://mills.no/vita-hjertego/oppskrift/blomkalsalat/","name":"- Vita hjertego&#039;","isPartOf":{"@id":"https://mills.no/vita-hjertego/#website"},"datePublished":null,"dateModified":null,"breadcrumb":{"@id":"https://mills.no/vita-hjertego/oppskrift/blomkalsalat/#breadcrumb"},"inLanguage":"nb-NO","potentialAction":[{"@type":"ReadAction","target":["https://mills.no/vita-hjertego/oppskrift/blomkalsalat/"]}]},{"@type":"BreadcrumbList","@id":"https://mills.no/vita-hjertego/oppskrift/blomkalsalat/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Hjem","item":"https://mills.no/vita-hjertego/"},{"@type":"ListItem","position":2,"name":"Oppskrifter","item":"https://mills.no/vita-hjertego/oppskrifter/"},{"@type":"ListItem","position":3,"name":"Blomkålsalat"}]},{"@type":"WebSite","@id":"https://mills.no/vita-hjertego/#website","url":"https://mills.no/vita-hjertego/","name":"Vita hjertego&#039;","description":"Det er ikke ett fett hva du spiser","publisher":{"@id":"https://mills.no/vita-hjertego/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://mills.no/vita-hjertego/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"nb-NO"},{"@type":"Organization","@id":"https://mills.no/vita-hjertego/#organization","name":"Vita hjertego&#039;","url":"https://mills.no/vita-hjertego/","logo":{"@type":"ImageObject","inLanguage":"nb-NO","@id":"https://mills.no/vita-hjertego/#/schema/logo/image/","url":"https://mills.no/content/uploads/sites/5/2021/11/logo-vita.svg","contentUrl":"https://mills.no/content/uploads/sites/5/2021/11/logo-vita.svg","caption":"Vita hjertego&#039;"},"image":{"@id":"https://mills.no/vita-hjertego/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//mills.no' />
+<link rel="preconnect" href="https://fonts.gstatic.com" /><style>:root{--t2-layout-wide:var(--theme-wide-width);--t2-layout-content:var(--theme-content-width);--t2-color-background:#fff;}.entry-content > * {max-width: min(calc(100vw - 2 * var(--t2-base-style-spacing-horizontal, var(--wp--custom--t-2-base-style--spacing--horizontal, 1.25rem))), var(--t2-layout-content, 48rem));margin-left: auto !important;margin-right: auto !important;}.entry-content > .alignwide { max-width: min(calc(100vw - 2 * var(--t2-base-style-spacing-horizontal, var(--wp--custom--t-2-base-style--spacing--horizontal, 1.25rem))), var(--t2-layout-wide, 75rem));}.entry-content .alignfull { max-width: none; }</style>
+<link rel='stylesheet' id='mills-headings-style-css' href='https://mills.no/content/themes/mills/assets/fonts/Circular-book/stylesheet.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://mills.no/vita-hjertego/wp-includes/css/dist/block-library/style.min.css?ver=6.4.5' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='mills-comments-style-css' href='https://mills.no/content/plugins/mills-block-comments/build/style.css?ver=6.4.5' type='text/css' media='all' />
+<style id='mills-block-contact-style-inline-css' type='text/css'>
+
+
+</style>
+<style id='mills-external-card-style-inline-css' type='text/css'>
+.wp-block-mills-external-card.is-link-wrapper a{color:unset;text-decoration:none}.wp-block-mills-external-card.is-link-wrapper:hover{box-shadow:var(--theme-buttons-box-shadow-focus);outline:none}.wp-block-mills-external-card .t2-post-featured-image image{height:100%}
+
+</style>
+<link rel='stylesheet' id='mills-block-lecture-info-style-css' href='https://mills.no/content/plugins/mills-block-lecture-info/build/style.css?ver=1' type='text/css' media='all' />
+<style id='mills-post-meta-style-inline-css' type='text/css'>
+.wp-block-mills-post-meta{color:var(--wp--preset--color--neutral-700);font-size:var(--wp--preset--font-size--xs);font-weight:var(--wp--custom--font-weight--bold)}.wp-block-mills-post-meta .__inner-content{align-items:center;align-self:center;display:inline-flex;gap:8px;justify-content:center}.wp-block-mills-post-meta .__inner-content *{align-self:center}.wp-block-mills-post-meta .wp-block-mills-label{align-self:center;color:var(--wp--preset--color--primary)}
+
+</style>
+<style id='mills-post-terms-style-inline-css' type='text/css'>
+.wp-block-mills-block-post-terms .terms-list{display:block}.wp-block-mills-block-post-terms .terms-list a{margin:0;text-decoration:none}.wp-block-mills-block-post-terms .terms-list .terms-list--term{display:inline-block;margin:0}
+
+</style>
+<style id='mills-block-privacy-style-inline-css' type='text/css'>
+.mills-privacy{width:100%}
+
+</style>
+<style id='mills-block-recipe-info-style-inline-css' type='text/css'>
+.wp-block-mills-block-recipe-info{color:inherit;display:flex;gap:var(--wp--preset--font-size--base);justify-content:center}.wp-block-mills-block-recipe-info .mills-block-recipe-info-item{align-items:center;color:inherit;display:flex;font-size:var(--wp--preset--font-size--large)}.wp-block-mills-block-recipe-info .mills-block-recipe-info-item:before{color:inherit;display:block;font-family:var(--wp--preset--font-family--icomoon);font-size:var(--wp--preset--font-size--large);height:var(--wp--preset--font-size--large);line-height:var(--wp--preset--font-size--large);margin-right:.5rem;width:var(--wp--preset--font-size--large)}.wp-block-mills-block-recipe-info .mills-block-recipe-info-item--difficulty:before{content:"\e932"}.wp-block-mills-block-recipe-info .mills-block-recipe-info-item--time:before{content:"\e935"}.wp-block-t2-featured-single-post .wp-block-mills-block-recipe-info{color:inherit}.wp-block-t2-featured-single-post .wp-block-mills-block-recipe-info .mills-block-recipe-info-item{color:inherit;font-size:var(--wp--preset--font-size--xs)}.wp-block-t2-featured-single-post .wp-block-mills-block-recipe-info .mills-block-recipe-info-item:before{color:inherit;display:block;font-family:var(--wp--preset--font-family--icomoon);font-size:var(--wp--preset--font-size--xs);height:var(--wp--preset--font-size--xs);line-height:var(--wp--preset--font-size--xs);margin-right:.25rem;width:var(--wp--preset--font-size--xs)}
+
+</style>
+<link rel='stylesheet' id='mills-recipe-ingredients-style-css' href='https://mills.no/content/plugins/mills-block-recipe-ingredients/build/style.css?ver=6.4.5' type='text/css' media='all' />
+<style id='mills-recipe-instructions-style-inline-css' type='text/css'>
+.wp-block-mills-recipe-instructions-step{border-bottom:1px solid var(--wp--preset--color--neutral-100);display:flex;flex-direction:row;page-break-inside:avoid;text-decoration:none}.wp-block-mills-recipe-instructions-step .components-button{display:block;margin:1rem 0}.wp-block-mills-recipe-instructions-step .wp-block-mills-block-infobox{margin-bottom:1rem}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-inner{flex:1 1;overflow:hidden;padding-top:1rem;position:relative}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-inner .mills-block-recipe-instructions-step-inner-body{opacity:1;transition:color .3s ease;will-change:auto}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-inner p{margin-bottom:1rem;margin-top:0;transition:opacity .5s ease}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-inner img{display:block;margin:1rem 0;max-width:100%;transition:opacity .3s ease}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-indicator{border:2px solid var(--wp--preset--color--neutral-1000);border-radius:2px;color:var(--wp--preset--color--neutral-700);height:26px;margin:1rem 1rem 1rem 0;position:relative;width:26px}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-indicator .mills-block-recipe-instructions-step-number{font-size:var(--wp--preset--font-size--medium);font-weight:var(--wp--custom--font-weight--bold);text-align:center}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-indicator .mills-block-recipe-instructions-step-checked{align-items:center;background:var(--wp--preset--color--primary);border-radius:2px;bottom:-2px;display:flex;justify-content:center;left:-2px;opacity:0;position:absolute;right:-2px;top:-2px;transition:opacity .5s ease}.wp-block-mills-recipe-instructions-step .mills-block-recipe-instructions-step-indicator .mills-block-recipe-instructions-step-checked:after{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxOCAxNCIgZmlsbD0ibm9uZSIKCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8cGF0aCBkPSJNNS45OTk5OSAxMS4yMDE2TDEuNzk5OTkgNy4wMDE1NkwwLjM5OTk5NCA4LjQwMTU2TDUuOTk5OTkgMTQuMDAxNkwxOCAyLjAwMTU2TDE2LjYgMC42MDE1NjJMNS45OTk5OSAxMS4yMDE2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);background-position:50%;background-repeat:no-repeat;background-size:18px;content:"";display:block;height:14px;transform:translateY(-20%);transition:transform .2s ease .2s;width:18px}.wp-block-mills-recipe-instructions-step:hover{cursor:pointer}.wp-block-mills-recipe-instructions-step.checked .mills-block-recipe-instructions-step-checked{opacity:1}.wp-block-mills-recipe-instructions-step.checked .mills-block-recipe-instructions-step-checked:after{transform:translateY(0)}.wp-block-mills-recipe-instructions-step.checked .mills-block-recipe-instructions-step-inner .mills-block-recipe-instructions-step-inner-body p{color:var(--wp--preset--color--neutral-700)!important;opacity:.7}.wp-block-mills-recipe-instructions-step.checked .mills-block-recipe-instructions-step-inner img{opacity:.7}.wp-block-mills-recipe-instructions{margin-bottom:1rem}.wp-block-mills-recipe-instructions .mills-block-recipe-instructions-steps-title{margin:1rem 0}.wp-block-mills-recipe-instructions .mills-block-recipe-instructions-steps{border-top:1px solid var(--wp--preset--color--neutral-100)}
+
+</style>
+<style id='mills-block-recipe-rating-comments-style-inline-css' type='text/css'>
+.wp-block-mills-block-recipe-rating-comments{color:var(--wp--preset--color--neutral-1000);display:flex;gap:var(--wp--preset--font-size--base);justify-content:center}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-item{align-items:center;color:var(--wp--preset--color--neutral-1000);display:flex;font-size:var(--wp--preset--font-size--base);position:relative;text-decoration:none}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-item:before{color:var(--wp--preset--color--neutral-1000);display:block;font-family:var(--wp--preset--font-family--icomoon);font-size:var(--wp--preset--font-size--base);height:var(--wp--preset--font-size--base);line-height:var(--wp--preset--font-size--base);margin-right:.5rem}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-item--comments:before{content:"\e919"}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-icons{--rating:0;color:var(--wp--preset--color--neutral-700);display:block;height:var(--wp--preset--font-size--base);margin-right:.5rem;position:relative}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-icons:after,.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-icons:before{display:block;font-family:var(--wp--preset--font-family--icomoon);font-size:var(--wp--preset--font-size--base);height:var(--wp--preset--font-size--base);letter-spacing:.25rem;line-height:var(--wp--preset--font-size--base);white-space:nowrap}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-icons:before{content:"\e931\e931\e931\e931\e931"}.wp-block-mills-block-recipe-rating-comments .mills-block-recipe-rating-comments-icons:after{color:var(--wp--preset--color--primary);content:"\e930\e930\e930\e930\e930";left:0;overflow:hidden;position:absolute;top:0;transition:width .3s ease;width:calc(var(--rating)/5*100%);will-change:auto}
+
+</style>
+<style id='mills-block-recipe-rating-style-inline-css' type='text/css'>
+.wp-block-mills-block-recipe-rating{align-items:center;display:flex;flex-direction:column;margin-bottom:1.25rem;margin-top:1.25rem;padding-top:1.25rem}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-title{font-family:var(--wp--preset--font-family--secondary);font-weight:var(--wp--custom--font-weight--bold);margin-bottom:1rem}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars{background:#fffae9;border-radius:200px;display:flex;padding:.75rem}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars .mills-block-recipe-rating-star{cursor:pointer;position:relative}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars .mills-block-recipe-rating-star:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars .mills-block-recipe-rating-star:before{color:var(--wp--preset--color--neutral-700);display:block;font-family:var(--wp--preset--font-family--icomoon);font-size:var(--wp--preset--font-size--large);height:var(--wp--preset--font-size--large);letter-spacing:.25rem;line-height:var(--wp--preset--font-size--large);white-space:nowrap}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars .mills-block-recipe-rating-star:before{content:"\e931"}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars .mills-block-recipe-rating-star:after{color:var(--wp--preset--color--primary);content:"\e930";left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity .3s ease;width:100%;will-change:auto}.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="1"] :first-child:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="2"] :first-child:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="2"] :nth-child(2):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="3"] :first-child:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="3"] :nth-child(2):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="3"] :nth-child(3):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="4"] :first-child:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="4"] :nth-child(2):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="4"] :nth-child(3):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="4"] :nth-child(4):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="5"] :first-child:after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="5"] :nth-child(2):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="5"] :nth-child(3):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="5"] :nth-child(4):after,.wp-block-mills-block-recipe-rating .mills-block-recipe-rating-stars[data-rating="5"] :nth-child(5):after{opacity:1}
+
+</style>
+<link rel='stylesheet' id='mills-social-share-style-css' href='https://mills.no/content/plugins/mills-block-social-share/build/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='t2-gallery-style-css' href='https://mills.no/content/plugins/t2/build/block-library/gallery/style.css?ver=7.6.1' type='text/css' media='all' />
+<style id='t2-ingress-style-inline-css' type='text/css'>
+:where(body){--t2-ingress-typography-font-size:var(--wp--custom--t-2-ingress--typography--font-size,1.25em)}.t2-ingress{font-size:var(--t2-ingress-typography-font-size)}
+</style>
+<style id='t2-logo-showcase-style-inline-css' type='text/css'>
+:where(body){--t2-logo-showcase-spacing-gap:var(--wp--custom--t-2-logo-showcase--spacing--gap,3rem);--t2-logo-showcase-height:var(--wp--custom--t-2-logo-showcase--height,2.5rem);--t2-logo-showcase-captions-font-size:var(--wp--custom--t-2-logo-showcase--captions--font-size,0.75rem)}.t2-logo-showcase{align-items:center;display:flex;flex-flow:row wrap;gap:var(--t2-logo-showcase-spacing-gap);justify-content:center}.t2-logo-showcase.alignfull{padding-left:var(--t2-logo-showcase-spacing-gap);padding-right:var(--t2-logo-showcase-spacing-gap)}.t2-logo-showcase img{height:100%!important;vertical-align:bottom;width:auto}.t2-logo-item{height:var(--t2-logo-showcase-height);position:relative}.t2-logo-item__caption{font-size:var(--t2-logo-showcase-captions-font-size);left:0;min-height:1rem;position:absolute;text-align:center;top:calc(100% + .2rem);width:100%}
+</style>
+<style id='t2-featured-content-layout-style-inline-css' type='text/css'>
+:where(body){--t2-featured-content-layout-spacing-gap:var(--wp--custom--t-2-featured-content-layout--spacing--gap,1rem);--t2-featured-content-layout-spacing-row-gap:var(--wp--custom--t-2-featured-content-layout--spacing--row-gap,var(--t2-featured-content-layout-spacing-gap));--t2-featured-content-layout-spacing-column-gap:var(--wp--custom--t-2-featured-content-layout--spacing--column-gap,var(--t2-featured-content-layout-spacing-gap))}.t2-featured-content-layout{display:grid;gap:var(--t2-featured-content-layout-spacing-row-gap) var(--t2-featured-content-layout-spacing-column-gap);grid-auto-flow:dense;grid-template-columns:repeat(auto-fill,minmax(calc(50% - var(--t2-featured-content-layout-spacing-column-gap)),1fr));margin:1.75em 0}@media (min-width:700px){.t2-featured-content-layout{grid-template-columns:repeat(auto-fill,minmax(calc(8.33333% - var(--t2-featured-content-layout-spacing-column-gap)),1fr))}}.t2-featured-content-layout.has-background{padding:2rem}.t2-featured-content-layout>*{grid-column:span 2}@media (min-width:700px){.t2-featured-content-layout>*{grid-column:span 4}.t2-featured-content-layout-col-3{grid-column:span 3}.t2-featured-content-layout-col-6{grid-column:span 6}.t2-featured-content-layout-col-8{grid-column:span 8}.t2-featured-content-layout-col-12{grid-column:span 12}}.t2-featured-content-layout-row-2{grid-row:span 2}.t2-featured-content-layout-row-3{grid-row:span 3}.t2-featured-content-layout-row-4{grid-row:span 4}
+</style>
+<style id='t2-featured-query-post-style-inline-css' type='text/css'>
+.t2-featured-query-post{background:#fff;color:#000}.t2-featured-query-post a{color:inherit;display:block;height:100%;text-decoration:none}.t2-featured-query-post img{max-width:100%;vertical-align:bottom}.t2-featured-query-post .t2-featured-query-post__content{padding:1rem}.t2-featured-query-post .t2-featured-query-post__content h2,.t2-featured-query-post .t2-featured-query-post__content p{margin:0}
+</style>
+<style id='t2-featured-single-post-style-inline-css' type='text/css'>
+.t2-featured-single-post{background:#fff;color:#000}.t2-featured-single-post a{color:inherit;display:block;height:100%;text-decoration:none}.t2-featured-single-post img{max-width:100%;vertical-align:bottom}
+</style>
+<style id='t2-statistics-style-inline-css' type='text/css'>
+:where(body){--t2-statistics-spacing-gap:var(--wp--custom--t-2-statistics--gap,3rem 2rem);--t2-statistics-spacing-background-padding:var(--wp--custom--t-2-statistics--background-padding,2rem)}.t2-statistics{display:flex;flex-flow:row wrap;gap:var(--t2-statistics-spacing-gap);justify-content:center}.t2-statistics.has-background{padding:var(--t2-statistics-spacing-background-padding)}.t2-statistic-item{min-width:100%;text-align:center}@media (min-width:62.5rem){.t2-statistic-item{min-width:30%}}.t2-statistic-item__icon{margin:auto}@media (min-width:37.5rem){.t2-statistics.alignwide .t2-statistic-item{min-width:25%}}@media (min-width:62.5rem){.t2-statistics.alignwide .t2-statistic-item{min-width:20%}}.t2-statistic-item__number-wrapper{font-size:3em;font-weight:700;line-height:1;white-space:nowrap}
+</style>
+<style id='t2-post-excerpt-style-inline-css' type='text/css'>
+.t2-post-excerpt p{margin:0}
+</style>
+<style id='t2-post-featured-image-style-inline-css' type='text/css'>
+.t2-post-featured-image{margin:0 0 1rem}.t2-post-featured-image img{height:100%;object-fit:cover;width:100%}.t2-post-featured-image.has-image-ratio-16-9{aspect-ratio:16/9}.t2-post-featured-image.has-image-ratio-4-3{aspect-ratio:4/3}.t2-post-featured-image.has-image-ratio-1-1{aspect-ratio:1/1}.t2-post-featured-image.has-image-ratio-3-2{aspect-ratio:3/2}
+</style>
+<style id='t2-post-link-style-inline-css' type='text/css'>
+.t2-post-link{width:100%}.t2-featured-single-post.has-background .t2-post-link{padding-bottom:1rem}.t2-featured-single-post.has-background .t2-post-link>.wp-block-group:first-child{padding-top:1rem}
+</style>
+<style id='t2-post-title-style-inline-css' type='text/css'>
+.t2-post-title{margin:0}.t2-featured-single-post.has-background .t2-post-title{padding:0 1rem}
+</style>
+<style id='mills-block-food-labeling-style-inline-css' type='text/css'>
+.mills-block-food-labeling{background-color:var(--wp--preset--color--neutral-0);display:flex;flex-wrap:wrap;gap:var(--wp--custom--block-padding--normal)}.mills-block-food-labeling .left{background-color:var(--wp--preset--color--secondary);border-radius:1rem;flex:1 1 20rem;padding:2rem 1rem}.mills-block-food-labeling .right{flex:1 1 25rem}.mills-block-food-labeling figure{margin:0 0 1rem;max-width:100%;width:21rem}.mills-block-food-labeling figure img{width:100%}.mills-block-food-labeling section{page-break-inside:avoid}.mills-block-food-labeling section:not(:last-child){margin-bottom:var(--wp--preset--font-size--large)}.nutrients-section{font-size:var(--wp--preset--font-size--small);line-height:var(--wp--custom--line-height--large)}.nutrients-section h3{margin-bottom:0}.nutrients-section .nutrients-info{font-size:var(--wp--preset--font-size--base);margin-top:0}.nutrients-section .nutrients-list{display:table;width:100%}.nutrients-section .empty-item{line-height:var(--wp--custom--line-height--small)}.nutrients-section .nutrient-item{display:table-row}.nutrients-section .nutrient-item span{display:table-cell}.nutrients-section .nutrient-item.heading span:first-child{font-weight:var(--wp--custom--font-weight--bold)}.allergens-section.contains .wp-block-buttons{color:var(--wp--preset--color--primary)}.allergens-section.may-contain .wp-block-buttons{color:var(--wp--preset--color--neutral-700)}.allergens-section .wp-block-buttons{display:flex;flex-direction:row;flex-wrap:wrap}.allergens-section .wp-block-button__link{border:.1rem solid var(--wp--preset--color--neutral-100);border-radius:var(--wp--custom--border-radius-big);box-shadow:0 1px 3px rgba(0,0,0,.15)}.allergens-section .wp-block-button__link i{font-size:1.5rem;margin-left:.5em}
+
+</style>
+<link rel='stylesheet' id='mills-section-style-css' href='https://mills.no/content/plugins/mills-block-section/build/style.css?ver=6.4.5' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary-dark: #00632b;--wp--preset--color--primary: #007934;--wp--preset--color--primary-light: #fff1f0;--wp--preset--color--secondary: #fffae9;--wp--preset--color--background-3: #fefae8;--wp--preset--color--background-4: #ffcd00;--wp--preset--color--background-footer: ;--wp--preset--color--neutral-1000: #333333;--wp--preset--color--neutral-700: rgba(51, 51, 51, 0.9);--wp--preset--color--neutral-100: rgba(51, 51, 51, 0.1);--wp--preset--color--neutral-50: #f5f5f5;--wp--preset--color--neutral-30: #f9f9f9;--wp--preset--color--neutral-0: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: var(--mills--font-size--small);--wp--preset--font-size--medium: var(--mills--font-size--medium);--wp--preset--font-size--large: var(--mills--font-size--large);--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--xs: var(--mills--font-size--xs);--wp--preset--font-size--base: var(--mills--font-size--base);--wp--preset--font-size--xl: var(--mills--font-size--xl);--wp--preset--font-size--xxl: var(--mills--font-size--xxl);--wp--preset--font-size--xxxl: var(--mills--font-size--xxxl);--wp--preset--font-size--huge: var(--mills--font-size--huge);--wp--preset--font-family--primary: Assistant, arial, sans-serif;--wp--preset--font-family--secondary: Playfair Display, arial, sans-serif;--wp--preset--font-family--icomoon: icomoon, arial, sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--line-height--small: 1.2;--wp--custom--line-height--regular: 1.33;--wp--custom--line-height--large: 1.5;--wp--custom--font-weight--light: 300;--wp--custom--font-weight--regular: 400;--wp--custom--font-weight--medium: 500;--wp--custom--font-weight--bold: 700;--wp--custom--t-2-custom-block-margin--normal: 0;--wp--custom--t-2-custom-block-margin--small: 0;--wp--custom--t-2-custom-block-margin--last: 0;--wp--custom--t-2-spacing-horizontal: var(--theme-spacing-horizontal);--wp--custom--t-2-base-style-spacing-horizontal: var(--theme-spacing-horizontal);--wp--custom--t-2-featured-content-layout-spacing-column-gap: var(--theme-grid-gap-column);--wp--custom--t-2-featured-content-layout-spacing-row-gap: var(--theme-grid-gap-column);--wp--custom--t-2-featured-content-layout-column-gap: var(--theme-grid-gap-column);--wp--custom--t-2-featured-content-layout-gap: var(--theme-grid-gap-column);--wp--custom--t-2-logo-showcase--gap: 0.5rem;--wp--custom--t-2-logo-showcase--height: auto;--wp--custom--border-radius: 0.5rem;--wp--custom--border-radius-big: 1.5rem;--wp--custom--block-padding--xxxs: 0.5rem;--wp--custom--block-padding--xxs: 1rem;--wp--custom--block-padding--xs: 1.5rem;--wp--custom--block-padding--small: 2rem;--wp--custom--block-padding--medium: 2.5rem;--wp--custom--block-padding--normal: 4rem;--wp--custom--block-padding--large: 7.5rem;}body { margin: 0;--wp--style--global--content-size: var(--theme-content-width);--wp--style--global--wide-size: var(--theme-wide-width); }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{font-family: var(--wp--preset--font-family--primary);font-size: var(--wp--preset--font-size--base);font-weight: var(--wp--custom--font-weight--light);line-height: var(--wp--custom--line-height--regular);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--primary);text-decoration: underline;}h1{font-family: var(--wp--preset--font-family--secondary);font-size: var(--wp--preset--font-size--xxxl);font-weight: var(--wp--custom--font-weight--bold);}h2{font-family: var(--wp--preset--font-family--secondary);font-size: var(--wp--preset--font-size--xxl);font-weight: var(--wp--custom--font-weight--medium);}h3{font-family: var(--wp--preset--font-family--primary);font-size: var(--wp--preset--font-size--large);font-weight: var(--wp--custom--font-weight--medium);}h4{font-family: var(--wp--preset--font-family--primary);font-size: var(--wp--preset--font-size--medium);font-weight: var(--wp--custom--font-weight--medium);line-height: var(--wp--custom--line-height--small);}h5{font-family: var(--wp--preset--font-family--primary);font-size: var(--wp--preset--font-size--base);font-weight: var(--wp--custom--font-weight--medium);line-height: var(--wp--custom--line-height--small);}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-dark-color{color: var(--wp--preset--color--primary-dark) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-primary-light-color{color: var(--wp--preset--color--primary-light) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-background-3-color{color: var(--wp--preset--color--background-3) !important;}.has-background-4-color{color: var(--wp--preset--color--background-4) !important;}.has-background-footer-color{color: var(--wp--preset--color--background-footer) !important;}.has-neutral-1000-color{color: var(--wp--preset--color--neutral-1000) !important;}.has-neutral-700-color{color: var(--wp--preset--color--neutral-700) !important;}.has-neutral-100-color{color: var(--wp--preset--color--neutral-100) !important;}.has-neutral-50-color{color: var(--wp--preset--color--neutral-50) !important;}.has-neutral-30-color{color: var(--wp--preset--color--neutral-30) !important;}.has-neutral-0-color{color: var(--wp--preset--color--neutral-0) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-dark-background-color{background-color: var(--wp--preset--color--primary-dark) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-primary-light-background-color{background-color: var(--wp--preset--color--primary-light) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-background-3-background-color{background-color: var(--wp--preset--color--background-3) !important;}.has-background-4-background-color{background-color: var(--wp--preset--color--background-4) !important;}.has-background-footer-background-color{background-color: var(--wp--preset--color--background-footer) !important;}.has-neutral-1000-background-color{background-color: var(--wp--preset--color--neutral-1000) !important;}.has-neutral-700-background-color{background-color: var(--wp--preset--color--neutral-700) !important;}.has-neutral-100-background-color{background-color: var(--wp--preset--color--neutral-100) !important;}.has-neutral-50-background-color{background-color: var(--wp--preset--color--neutral-50) !important;}.has-neutral-30-background-color{background-color: var(--wp--preset--color--neutral-30) !important;}.has-neutral-0-background-color{background-color: var(--wp--preset--color--neutral-0) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-dark-border-color{border-color: var(--wp--preset--color--primary-dark) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-primary-light-border-color{border-color: var(--wp--preset--color--primary-light) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-background-3-border-color{border-color: var(--wp--preset--color--background-3) !important;}.has-background-4-border-color{border-color: var(--wp--preset--color--background-4) !important;}.has-background-footer-border-color{border-color: var(--wp--preset--color--background-footer) !important;}.has-neutral-1000-border-color{border-color: var(--wp--preset--color--neutral-1000) !important;}.has-neutral-700-border-color{border-color: var(--wp--preset--color--neutral-700) !important;}.has-neutral-100-border-color{border-color: var(--wp--preset--color--neutral-100) !important;}.has-neutral-50-border-color{border-color: var(--wp--preset--color--neutral-50) !important;}.has-neutral-30-border-color{border-color: var(--wp--preset--color--neutral-30) !important;}.has-neutral-0-border-color{border-color: var(--wp--preset--color--neutral-0) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xs-font-size{font-size: var(--wp--preset--font-size--xs) !important;}.has-base-font-size{font-size: var(--wp--preset--font-size--base) !important;}.has-xl-font-size{font-size: var(--wp--preset--font-size--xl) !important;}.has-xxl-font-size{font-size: var(--wp--preset--font-size--xxl) !important;}.has-xxxl-font-size{font-size: var(--wp--preset--font-size--xxxl) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}.has-primary-font-family{font-family: var(--wp--preset--font-family--primary) !important;}.has-secondary-font-family{font-family: var(--wp--preset--font-family--secondary) !important;}.has-icomoon-font-family{font-family: var(--wp--preset--font-family--icomoon) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='mills-css' href='https://mills.no/content/themes/mills/build/style.css?ver=1733140359' type='text/css' media='all' />
+<link rel='stylesheet' id='mills-primary-font-css' href='https://mills.no/content/themes/mills/assets/fonts/Assistant/stylesheet.css?ver=1733140310' type='text/css' media='all' />
+<link rel='stylesheet' id='searchwp-forms-css' href='https://mills.no/content/plugins/searchwp/assets/css/frontend/search-forms.css?ver=4.3.17' type='text/css' media='all' />
+<script type="text/javascript" src="https://mills.no/vita-hjertego/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://mills.no/vita-hjertego/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://mills.no/vita-hjertego/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://mills.no/content/plugins/mills-block-comments/build/frontend.js?ver=ec4dbed99933de6407ebeec9a78356a7" id="mills-comments-script-js"></script>
+<script type="text/javascript" src="https://mills.no/content/plugins/mills-block-recipe-ingredients/build/frontend.js?ver=c20bf05bcd764dba2ba4aa21634fe692" id="mills-recipe-ingredients-script-js"></script>
+<script type="text/javascript" src="https://mills.no/content/plugins/mills-block-recipe-instructions/build/frontend.js?ver=be3ff87e5019e392c95a163429d95760" id="mills-recipe-instructions-script-js"></script>
+<script type="text/javascript" id="mills-block-recipe-rating-script-js-extra">
+/* <![CDATA[ */
+var millsRecipeRating = {"postId":"33853","nonce":"8466102527","ajaxUrl":"https:\/\/mills.no\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://mills.no/content/plugins/mills-block-recipe-rating/build/frontend.js?ver=d132d98e7951591bdb8c93504d422ec7" id="mills-block-recipe-rating-script-js"></script>
+<script type="text/javascript" src="https://mills.no/content/plugins/t2/build/block-library/gallery/script.js?ver=37215a6b65344f1eafba" id="t2-gallery-script-js"></script>
+<script type="text/javascript" src="https://mills.no/content/plugins/t2/build/block-library/statistics/script.js?ver=281f30c630e0cdddae8d" id="t2-statistics-script-js"></script>
+<link rel="https://api.w.org/" href="https://mills.no/vita-hjertego/wp-json/" /><link rel="alternate" type="application/json" href="https://mills.no/vita-hjertego/wp-json/wp/v2/recipe/33853" /><meta name="generator" content="WordPress 6.4.5" />
+<link rel="alternate" type="application/json+oembed" href="https://mills.no/vita-hjertego/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmills.no%2Fvita-hjertego%2Foppskrift%2Fblomkalsalat%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mills.no/vita-hjertego/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmills.no%2Fvita-hjertego%2Foppskrift%2Fblomkalsalat%2F&#038;format=xml" />
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PD99Q6');</script>
+	<!-- End Google Tag Manager -->
+	<link rel="icon" href="https://mills.no/content/uploads/sites/5/2022/02/cropped-mills-site-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mills.no/content/uploads/sites/5/2022/02/cropped-mills-site-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mills.no/content/uploads/sites/5/2022/02/cropped-mills-site-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mills.no/content/uploads/sites/5/2022/02/cropped-mills-site-icon-270x270.png" />
+</head>
+<body class="recipe-template-default single single-recipe postid-33853 wp-custom-logo wp-embed-responsive env-production ">
+
+<a class="skip-link screen-reader-text" href="#content">Hopp til hovedinnhold</a>
+
+<div class="site">
+
+		<section id="back-to-main-site-bar" class="back-to-main-site-bar">
+		<div class="site-container">
+			<div class="back-to-main-site">
+				<a href="https://mills.no/"
+					title="Et produkt fra">
+					Et produkt fra					<a href="https://mills.no/" class="custom-logo-link" rel="home"><img src="https://mills.no/content/uploads/2022/07/Mills-logo-farger.svg" class="custom-logo" alt="Mills logo" width="180" height="100" decoding="async" /></a>				</a>
+			</div>
+		</div>
+	</section>
+	
+	<header id="masthead" class="site-header">
+		<div class="site-container">
+			<div class="site-header--branding">
+	<a href="https://mills.no/vita-hjertego/" class="custom-logo-link" rel="home"><img src="https://mills.no/content/uploads/sites/5/2021/11/logo-vita.svg" class="custom-logo" alt="Vita hjertego&#039;" width="180" height="100" decoding="async" /></a></div>
+<div class="site-header--search">
+			<div class="site-header--search__desktop">
+			<form role="search" method="get" action="https://mills.no/vita-hjertego/" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search"    ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-1" >Søk</label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="Hva leter du etter..." value="" type="search" name="s" required /><button aria-label="Søk" class="wp-block-search__button has-icon wp-element-button" type="submit" ><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form>		</div>
+
+		<div class="site-header--search__mobile">
+			<button
+				type="button"
+				class="site-header--search-open button-as-icon"
+				aria-controls="site-header--search"
+				aria-expanded="false"
+				aria-label="Åpne søk">
+				<span class="icon-Iconsearch"></span>
+			</button>
+		</div>
+	</div>
+
+
+
+<div class="site-header--menu">
+	<div class="site-header--menu-secondary">
+		<div class="menu-secondary-container"><ul id="menu-secondary" class="secondary-menu"><li id="menu-item-547" class="menu-item menu-item-type-post_type_archive menu-item-object-product menu-item-547"><a href="https://mills.no/vita-hjertego/produkter/">Produkter</a></li>
+<li id="menu-item-548" class="menu-item menu-item-type-post_type_archive menu-item-object-recipe menu-item-548"><a href="https://mills.no/vita-hjertego/oppskrifter/">Oppskrifter</a></li>
+<li id="menu-item-1542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1542"><a href="https://mills.no/vita-hjertego/kolesterol-og-hjertehelse/">Kolesterol og hjerte</a></li>
+</ul></div>	</div>
+
+	<div class="site-header--menu-primary">
+		<button
+			type="button"
+			class="site-header--nav-open button-as-icon"
+			aria-controls="site-header--nav"
+			aria-expanded="false"
+			aria-label="Åpne meny">
+			<span class="label">Meny</span>
+			<span class="icon-Iconmenu"></span>
+		</button>
+	</div>
+</div>
+
+<div class="site-header--menu-list alignwide">
+	<div class="menu-primary-container"><ul id="menu-primary" class="main-menu aligncenter"><li id="menu-item-549" class="menu-item menu-item-type-post_type_archive menu-item-object-product menu-item-549"><a href="https://mills.no/vita-hjertego/produkter/">Produkter</a></li>
+<li id="menu-item-550" class="menu-item menu-item-type-post_type_archive menu-item-object-recipe menu-item-550"><a href="https://mills.no/vita-hjertego/oppskrifter/">Oppskrifter</a></li>
+<li id="menu-item-1524" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1524"><a href="https://mills.no/vita-hjertego/sunnere-hverdag/">Tips</a></li>
+<li id="menu-item-1525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1525"><a href="https://mills.no/vita-hjertego/proaktiv/">Vita hjertego&#8217; Proaktiv</a></li>
+<li id="menu-item-1526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1526"><a href="https://mills.no/vita-hjertego/kolesterol-og-hjertehelse/">Kolesterol</a></li>
+<li id="menu-item-1527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1527"><a href="https://mills.no/vita-hjertego/om-vita-hjertego/">Om oss</a></li>
+<li id="menu-item-1529" class="label-element menu-item menu-item-type-custom menu-item-object-custom menu-item-1529"><a href="#">Merkevarer fra Mills AS</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1530"><a href="/mills/">Mills</a></li>
+<li id="menu-item-1531" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1531"><a href="/melange/">Melange</a></li>
+<li id="menu-item-1532" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1532"><a href="/delikat/">Delikat</a></li>
+<li id="menu-item-1533" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1533"><a href="/soft-flora/">Soft Flora</a></li>
+<li id="menu-item-1534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1534"><a href="/olivero/">Olivero</a></li>
+<li id="menu-item-1535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1535"><a href="/plantego/">Plantego’</a></li>
+<li id="menu-item-1536" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1536"><a href="/stryhns/">Stryhn&#8217;s</a></li>
+<li id="menu-item-1537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1537"><a href="/lohmanders/">Lohmanders</a></li>
+<li id="menu-item-1538" class="label-element menu-item menu-item-type-custom menu-item-object-custom menu-item-1538"><a href="#">Språk</a></li>
+<li id="menu-item-1539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1539"><a href="/en/">Engelsk side</a></li>
+</ul></div></div>
+		</div>
+	</header>
+
+	<main id="content" class="site-content">
+<article id="post-33853" class="post-33853 recipe type-recipe status-publish has-post-thumbnail hentry brand-vita-hjertego recipe_category-grill recipe_category-snacks-og-tilbehor recipe_category-vegetar recipe_topic-tapas-og-koldtbord">
+	<div class="entry-content">
+	<div class="mills-block-featured alignwide alignwide wp-block-mills-block-featured"><img fetchpriority="high" decoding="async" width="1600" height="1067" style="width:100%;height:100%;object-fit:cover" src="https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920.jpg" class="wp-block-cover__image-background" alt="Blomkålsalat" srcset="https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920.jpg 1600w, https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920-300x200.jpg 300w, https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920-1024x683.jpg 1024w, https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920-768x512.jpg 768w, https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920-1536x1024.jpg 1536w, https://mills.no/content/uploads/2018/06/BlomkC3A5lsalat_1920-80x53.jpg 80w" sizes="(max-width: 1600px) 100vw, 1600px" /><div class="wp-block-cover__inner-container">
+<h1 class="has-text-align-center has-text-color has-neutral-1000-color wp-block-post-title">Blomkålsalat</h1>
+
+		<div class="wp-block-mills-block-recipe-info">
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--difficulty">Enkel</div>
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--time">15 min</div>
+		</div>
+
+		<div class="wp-block-mills-block-recipe-rating-comments">
+			<a class="mills-block-recipe-rating-comments-item" href="#post-rating">
+				<div class="mills-block-recipe-rating-comments-icons" style="--rating:5;"></div>5
+			</a>
+			<div class="mills-block-recipe-rating-comments-item mills-block-recipe-rating-comments-item--comments">4</div>
+		</div>
+<div class="mills-block-social-share aligncenter wp-block-mills-social-share"><div class="mills-social-share-content"><a class="social-share-button social-share-button--email" href="mailto:?&#038;subject=Ta%20en%20titt%20på%20denne&#038;body=Kanskje%20er%20du%20interessert%20i%20dette:%20Blomkålsalat,%20https://mills.no/vita-hjertego/oppskrift/blomkalsalat/" title="Send e-post"><span class="icon-IconMail"></span></a><a class="social-share-button social-share-button--link" href="https://mills.no/vita-hjertego/oppskrift/blomkalsalat/" title="Kopier link" data-text="Lenken er kopiert til utklippstavlen"><span class="icon-Iconcopy-link"></span></a><a class="social-share-button social-share-button--print" href="javascript:window.print();" title="Skriv ut side"><span class="icon-IconPrint"></span></a></div></div>
+</div></div>
+
+		<div class="has-background has-neutral-0-background-color is-style-vertical-spacing alignwide has-background has-neutral-0-background-color wp-block-mills-section">
+			<div class="wp-block-mills-section__inner aligncenter">
+				
+<p class="t2-ingress has-text-align-center align wp-block-t2-ingress">Blomkålsalat er en lett og frisk tilbehørsalat som passer ypperlig til grillbordet. Blomkål er en god kilde til vitamin C, i tillegg til å ha en god og mild smak som egner seg godt som tilbehør til grillmat som laks og magert kjøtt. Når blomkålen er rå beholder man også flere av næringsstoffene, som blant annet folat. 
+</p>
+
+			</div>
+		</div>
+
+		<div class="has-background has-neutral-0-background-color is-style-vertical-spacing alignwide has-background has-neutral-0-background-color is-section-recipe alignwide wp-block-mills-section">
+			<div class="wp-block-mills-section__inner alignwide">
+				
+
+<div class="alignwide has-background has-neutral-0-background-color wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 40%;">
+		<div class="mills-block-recipe-ingredients wp-block-mills-recipe-ingredients">
+			<div class="mills-block-recipe-ingredients-wrapper">
+				<div class="mills-block-recipe-ingredients-inner">
+					<div class="mills-block-recipe-ingredients-header">
+						<h3>Ingredienser</h3>
+						
+				<div class="mills-block-recipe-ingredients-controls">
+					<div class="mills-block-recipe-ingredients-button mills-block-recipe-ingredients-button--dec"><span class="icon-Iconminus_remove"></span></div>
+					<div class="mills-block-recipe-ingredients-portion" data-default="4" data-single="%s porsjon" data-plural="%s porsjon">4 porsjon</div>
+					<div class="mills-block-recipe-ingredients-button mills-block-recipe-ingredients-button--inc"><span class="icon-Iconplus_add"></span></div>
+				</div>
+					</div>
+					<div class="mills-block-recipe-ingredients-lists">
+						
+
+		<div class="mills-block-recipe-ingredients-list wp-block-mills-recipe-ingredients-list">
+			<div class="mills-block-recipe-ingredients-list-inner">
+				<h4></h4>
+				<div class="mills-block-recipe-ingredients-list-ingredients">
+					
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="400">400</span> gram</strong> rå blomkål
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="165">165</span> gram</strong> <a href="https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmajones/">Vita Hjertego&#8217; Lettmajones</a>
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="1">1</span> dl</strong> lett crème fraîche
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="2">2</span> ss</strong> eplecidereddik
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="3">3</span> stk</strong> vårløk
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="2">2</span> ss</strong> fersk bladpersille
+			</div>
+			
+		</div>
+
+		<div class="mills-block-recipe-ingredients-list-ingredient wp-block-mills-recipe-ingredients-list-ingredient">
+			<div class="mills-block-recipe-ingredients-list-ingredient-inner">
+				<strong><span class="mills-block-recipe-ingredients-list-ingredient-value" data-default="0.5">0.5</span> ts</strong> pepper
+			</div>
+			
+		</div>
+
+				</div>
+			</div>
+		</div>
+
+					</div>
+				</div>
+			</div>
+			
+				<div class="mills-block-recipe-ingredients-products">
+					<h3>Produkter i oppskriften</h3>
+					
+				<div class="mills-block-recipe-ingredients-product">
+					<div class="mills-block-recipe-ingredients-product-image">
+						<a href="https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmajones/"><img decoding="async" width="300" height="300" src="https://mills.no/content/uploads/2016/03/Vita-hjertego-lettmajones-300x300.png" class="attachment-medium size-medium wp-post-image" alt="Vita hjertego&#039; Lettmajones pakningsbilde" srcset="https://mills.no/content/uploads/2016/03/Vita-hjertego-lettmajones-300x300.png 300w, https://mills.no/content/uploads/2016/03/Vita-hjertego-lettmajones-150x150.png 150w, https://mills.no/content/uploads/2016/03/Vita-hjertego-lettmajones-80x80.png 80w, https://mills.no/content/uploads/2016/03/Vita-hjertego-lettmajones.png 380w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+					</div>
+					<div class="mills-block-recipe-ingredients-product-body">
+						<a href="https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmajones/" class="mills-block-recipe-ingredients-product-title">Vita Hjertego&#039; Lettmajones</a>
+						<div class="mills-block-recipe-ingredients-product-text">
+							<span>Vita hjertego’ Lettmajones er en majones for deg som ønsker å gjøre et godt valg for hjertet og k&#8230;</span> <a href="https://mills.no/vita-hjertego/produkt/vita-hjertego-lettmajones/">Les mer</a>
+						</div>
+					</div>
+				</div>
+				</div>
+		</div>
+</div>
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis: 60%;">
+<h2 class="wp-block-heading" >Slik gjør du</h2>
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+		<div class="wp-block-mills-recipe-instructions">
+			
+			<div class="mills-block-recipe-instructions-steps">
+				
+
+		<a href="#step-1" id="step-1" class="mills-block-recipe-instructions-step wp-block-mills-recipe-instructions-step" onClick="return false;">
+			<div class="mills-block-recipe-instructions-step-left">
+				<div class="mills-block-recipe-instructions-step-indicator">
+					<div class="mills-block-recipe-instructions-step-checked"></div>
+				</div>
+			</div>
+			<div class="mills-block-recipe-instructions-step-inner">
+				<div class="mills-block-recipe-instructions-step-inner-body">
+					<p class="has-text-color has-neutral-1000-color">1. Del blomkålen i små buketter.</p>
+
+				</div>
+			</div>
+		</a>
+
+		<a href="#step-2" id="step-2" class="mills-block-recipe-instructions-step wp-block-mills-recipe-instructions-step" onClick="return false;">
+			<div class="mills-block-recipe-instructions-step-left">
+				<div class="mills-block-recipe-instructions-step-indicator">
+					<div class="mills-block-recipe-instructions-step-checked"></div>
+				</div>
+			</div>
+			<div class="mills-block-recipe-instructions-step-inner">
+				<div class="mills-block-recipe-instructions-step-inner-body">
+					<p class="has-text-color has-neutral-1000-color">2. Bland sammen Vita hjertego’ Lettmajones, lett creme fraiche og eplecidereddik i en bolle, og rør godt om.</p>
+
+				</div>
+			</div>
+		</a>
+
+		<a href="#step-3" id="step-3" class="mills-block-recipe-instructions-step wp-block-mills-recipe-instructions-step" onClick="return false;">
+			<div class="mills-block-recipe-instructions-step-left">
+				<div class="mills-block-recipe-instructions-step-indicator">
+					<div class="mills-block-recipe-instructions-step-checked"></div>
+				</div>
+			</div>
+			<div class="mills-block-recipe-instructions-step-inner">
+				<div class="mills-block-recipe-instructions-step-inner-body">
+					<p class="has-text-color has-neutral-1000-color">3. Finhakk vårløk og bladpersille, og vend det inn i majonesblandingen sammen med blomkålen. Smak til med litt nykvernet pepper.</p>
+
+				</div>
+			</div>
+		</a>
+
+			</div>
+		</div>
+</div>
+
+		<div id="post-rating" class="wp-block-mills-block-recipe-rating">
+			<div class="mills-block-recipe-rating-title">Hva synes du om oppskriften?</div>
+			<div class="mills-block-recipe-rating-stars">
+				<div class="mills-block-recipe-rating-star"></div>
+				<div class="mills-block-recipe-rating-star"></div>
+				<div class="mills-block-recipe-rating-star"></div>
+				<div class="mills-block-recipe-rating-star"></div>
+				<div class="mills-block-recipe-rating-star"></div>
+			</div>
+		</div>
+</div>
+</div>
+
+			</div>
+		</div>
+
+		<div class="has-background has-neutral-0-background-color is-style-vertical-spacing is-style-horizontal-spacing alignwide has-background has-neutral-0-background-color wp-block-mills-section">
+			<div class="wp-block-mills-section__inner alignwide">
+				
+<div class="alignwide wp-block-mills-comments">
+<div id="comments" class="comments-area">
+	<div class="comments-container aligncenter">
+		<h2>Kommentarer</h2>
+		<button class="open-comment comment-button">Legg til en kommentar</button>
+			<div id="respond" class="comment-respond">
+		 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vita-hjertego/oppskrift/blomkalsalat/#respond" style="display:none;">Avbryt svar</a></small><form action="https://mills.no/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+	<p class="comment-form-comment">
+		<button class="close-accordion-comment"><span class="icon-Iconclose_delete"></span></button>
+		<textarea id="comment" name="comment" placeholder="Din kommentar..." cols="45" rows="8" maxlength="65525" required="required"></textarea>
+	</p>
+
+				<p class="comment-form-author">
+				<label for="author" class="visuallyhidden">Navn</label>
+				<input placeholder="Navn" id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' />
+			</p>
+			
+			<p class="comment-form-email-notice">
+				<input id="email_notice" name="email_notice" type="checkbox" />
+				<label for="email_notice">
+					Gi meg beskjed på e-post dersom noen svarer på kommentaren min.				</label>
+			</p>
+			
+			<p class="comment-form-email hidden">
+				<label for="email" class="visuallyhidden">Din e-post*</label>
+				<input placeholder="Din e-post*" id="email" name="email" type="text" value="wordpress@mills.no" size="30" maxlength="100" required='required' />
+			</p>
+			
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publiser kommentar" /> <input type='hidden' name='comment_post_ID' value='33853' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="272f5ad3dc" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="206"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+			<ul class="comment-list">
+					<li class="comment even thread-even depth-1 parent" id="comment-13120">
+	<div id="div-comment-13120" class="comment-body">
+		<div class="comment-icon">
+							<span class="icon-IconUser"></span>
+					</div>
+
+		<div class="comment-wrapper">
+			<div class="comment-author vcard">
+				Sissel			</div>
+
+			<div class="comment-meta commentmetadata">
+					4 år siden							</div>
+
+			<p>Erstatt eplecidereddik med cironsaft og ta en liten ts sukker i, så blir den helt perfekt. Har du litt tørket ramsløk og ha i blir det drømmen!</p>
+
+			<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-13120' data-commentid="13120" data-postid="33853" data-belowelement="div-comment-13120" data-respondelement="respond" data-replyto="Svar til Sissel" aria-label='Svar til Sissel'>Svar</a></div>		</div>
+	</div>
+	<ul class="children">
+	<li class="comment odd alt depth-2 parent" id="comment-10580">
+	<div id="div-comment-10580" class="comment-body">
+		<div class="comment-icon">
+							<span class="icon-IconUser"></span>
+					</div>
+
+		<div class="comment-wrapper">
+			<div class="comment-author vcard">
+				Liv			</div>
+
+			<div class="comment-meta commentmetadata">
+					4 år siden							</div>
+
+			<p>Enig og lag gjerne broccoli salat på samme måte men med en liten finhakket løk og en liten håndfull rosiner i</p>
+
+			<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-10580' data-commentid="10580" data-postid="33853" data-belowelement="div-comment-10580" data-respondelement="respond" data-replyto="Svar til Liv" aria-label='Svar til Liv'>Svar</a></div>		</div>
+	</div>
+	<ul class="children">
+	<li class="comment even depth-3" id="comment-10567">
+	<div id="div-comment-10567" class="comment-body">
+		<div class="comment-icon">
+							<span class="icon-IconUser"></span>
+					</div>
+
+		<div class="comment-wrapper">
+			<div class="comment-author vcard">
+				Anne Cathrine			</div>
+
+			<div class="comment-meta commentmetadata">
+					4 år siden							</div>
+
+			<p>Takk for gode innspill til variasjon, Liv! Det blir nok mye både brokkoli- og blomkålsalat i sommer 😊</p>
+
+			<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-10567' data-commentid="10567" data-postid="33853" data-belowelement="div-comment-10567" data-respondelement="respond" data-replyto="Svar til Anne Cathrine" aria-label='Svar til Anne Cathrine'>Svar</a></div>		</div>
+	</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt depth-2" id="comment-10566">
+	<div id="div-comment-10566" class="comment-body">
+		<div class="comment-icon">
+							<span class="icon-IconUser"></span>
+					</div>
+
+		<div class="comment-wrapper">
+			<div class="comment-author vcard">
+				Anne Cathrine			</div>
+
+			<div class="comment-meta commentmetadata">
+					4 år siden							</div>
+
+			<p>Ramsløk er perfekt å bruke i denne salaten! Takk for tipset, Sissel 😊</p>
+
+			<div class="reply"><a rel='nofollow' class='comment-reply-link' href='#comment-10566' data-commentid="10566" data-postid="33853" data-belowelement="div-comment-10566" data-respondelement="respond" data-replyto="Svar til Anne Cathrine" aria-label='Svar til Anne Cathrine'>Svar</a></div>		</div>
+	</div>
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			</ul><!-- .comment-list -->
+		
+		
+	</div>
+
+</div><!-- .comments-area -->
+</div>
+
+			</div>
+		</div>
+
+		<div class="has-background has-secondary-background-color is-style-vertical-spacing is-style-horizontal-spacing alignwide has-background has-secondary-background-color is-section-related alignwide wp-block-mills-section">
+			<div class="wp-block-mills-section__inner alignwide">
+				
+
+<h3 class="wp-block-heading" >Relaterte oppskrifter</h3>
+<div class="t2-featured-content-layout alignwide wp-block-t2-featured-content-layout">
+<div class="t2-featured-single-post t2-featured-content is-post-type-recipe brand-vita-hjertego recipe_category-grill recipe_category-snacks-og-tilbehor recipe_category-vegetar recipe_topic-salat recipe_topic-tapas-og-koldtbord wp-block-t2-featured-single-post"><a class="t2-post-link wp-block-t2-post-link" href="https://mills.no/vita-hjertego/oppskrift/jordbaersalsa-med-mango/">
+<figure  class="t2-post-featured-image has-image-ratio-16-9 wp-block-t2-post-featured-image"><img decoding="async" width="1600" height="1067" src="https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920.jpg" class="attachment-medium-large size-medium-large wp-post-image" alt="Jordbærsalsa med mango" srcset="https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920.jpg 1600w, https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920-300x200.jpg 300w, https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920-1024x683.jpg 1024w, https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920-768x512.jpg 768w, https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920-1536x1024.jpg 1536w, https://mills.no/content/uploads/2018/05/JordbC3A6rsalsa_1920-80x53.jpg 80w" sizes="(max-width: 1600px) 100vw, 1600px" /></figure>
+
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+	<h2 class="t2-post-title wp-block-t2-post-title">Jordbærsalsa med mango</h2>
+	<div class="t2-post-excerpt wp-block-t2-post-excerpt"><p>Jordbærsalsa med mango er en frisk, enkel og fargerik salsa som passer perfekt som lett, sunt og næringsrikt tilbehør til&hellip;</p></div>
+	
+		<div class="wp-block-mills-block-recipe-info">
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--difficulty">Enkel</div>
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--time">15 min</div>
+		</div>
+</div>
+
+</a>
+</div>
+<div class="t2-featured-single-post t2-featured-content is-post-type-recipe brand-vita-hjertego recipe_category-frokost-og-lunsj recipe_category-maltider recipe_category-middag recipe_topic-salat wp-block-t2-featured-single-post"><a class="t2-post-link wp-block-t2-post-link" href="https://mills.no/vita-hjertego/oppskrift/quinoasalat-med-mango-og-granateple/">
+<figure  class="t2-post-featured-image has-image-ratio-16-9 wp-block-t2-post-featured-image"><img loading="lazy" decoding="async" width="1920" height="1280" src="https://mills.no/content/uploads/2018/05/Quinoasalat1_1920.jpg" class="attachment-medium-large size-medium-large wp-post-image" alt="quinoasalat" srcset="https://mills.no/content/uploads/2018/05/Quinoasalat1_1920.jpg 1920w, https://mills.no/content/uploads/2018/05/Quinoasalat1_1920-300x200.jpg 300w, https://mills.no/content/uploads/2018/05/Quinoasalat1_1920-1024x683.jpg 1024w, https://mills.no/content/uploads/2018/05/Quinoasalat1_1920-768x512.jpg 768w, https://mills.no/content/uploads/2018/05/Quinoasalat1_1920-1536x1024.jpg 1536w, https://mills.no/content/uploads/2018/05/Quinoasalat1_1920-80x53.jpg 80w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+	<h2 class="t2-post-title wp-block-t2-post-title">Quinoasalat med mango og granateple</h2>
+	<div class="t2-post-excerpt wp-block-t2-post-excerpt"><p>Quinoafrøene er naturlig glutenfrie og inneholder mer flerumettet fett, fiber og protein sammenlignet enn for eksempel ris. I denne salaten&hellip;</p></div>
+	
+		<div class="wp-block-mills-block-recipe-info">
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--difficulty">Enkel</div>
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--time">30 min</div>
+		</div>
+</div>
+
+</a>
+</div>
+<div class="t2-featured-single-post t2-featured-content is-post-type-recipe brand-vita-hjertego recipe_category-middag wp-block-t2-featured-single-post"><a class="t2-post-link wp-block-t2-post-link" href="https://mills.no/vita-hjertego/oppskrift/parmesanbakt-blomkal/">
+<figure  class="t2-post-featured-image has-image-ratio-16-9 wp-block-t2-post-featured-image"><img loading="lazy" decoding="async" width="1920" height="1236" src="https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920.jpg" class="attachment-medium-large size-medium-large wp-post-image" alt="Parmesanbakt blomkål med chilimajones" srcset="https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920.jpg 1920w, https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920-300x193.jpg 300w, https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920-1024x659.jpg 1024w, https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920-768x494.jpg 768w, https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920-1536x989.jpg 1536w, https://mills.no/content/uploads/2017/04/Parmesanbakt-blomkC3A5l_1920-80x52.jpg 80w" sizes="(max-width: 1920px) 100vw, 1920px" /></figure>
+
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+	<h2 class="t2-post-title wp-block-t2-post-title">Parmesanbakt blomkål med chilimajones</h2>
+	<div class="t2-post-excerpt wp-block-t2-post-excerpt"><p>Små biter av blomkål med knasende sprø parmesanost og smakfull chilimajones vil garantert pirre smakssansene dine når du har lyst&hellip;</p></div>
+	
+		<div class="wp-block-mills-block-recipe-info">
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--difficulty">Enkel</div>
+			<div class="mills-block-recipe-info-item mills-block-recipe-info-item--time">25 min</div>
+		</div>
+</div>
+
+</a>
+</div>
+</div>
+
+			</div>
+		</div></div>
+</article>
+</main><!-- .site-content -->
+
+<footer class="site-footer">
+	<div class="site-container site-footer-widgets alignwide">
+					<div class="footer-widgets contact-widgets">
+				<div class="contact-widget footer-widget"><div class="mills-contact wp-block-mills-block-contact"><div class="contact-phone"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M33.333 37.7017L27.4647 26.3767C27.4514 26.3833 24.1747 27.9933 24.0247 28.0617C20.2914 29.8717 12.693 15.0283 16.343 13.0717L19.8147 11.3617L13.993 0L10.483 1.73167C-1.5203 7.99 17.538 45.035 29.8164 39.4233C30.018 39.3317 33.3197 37.7083 33.333 37.7017Z"/></svg><h4>Telefon</h4><p><span>Sentralbord: </span><a href="tel:22808600">22 80 86 00</a></p><p><span>Forbrukerservice: </span><a href="tel:80035036">800 35 036</a></p></div><div class="contact-address"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M20 3.33333C16.4638 3.33333 13.0724 4.73809 10.5719 7.23858C8.07147 9.73906 6.66671 13.1304 6.66671 16.6667C6.66671 21.8301 10.0263 26.8404 13.71 30.7288C15.5177 32.637 17.3312 34.1991 18.6945 35.2847C19.2019 35.6888 19.6451 36.0253 20 36.2876C20.355 36.0253 20.7982 35.6888 21.3056 35.2847C22.6689 34.1991 24.4824 32.637 26.2901 30.7288C29.9738 26.8404 33.3334 21.8301 33.3334 16.6667C33.3334 13.1304 31.9286 9.73906 29.4281 7.23858C26.9276 4.73809 23.5363 3.33333 20 3.33333ZM20 38.3333C19.0755 39.7201 19.0751 39.7198 19.0746 39.7195L19.0699 39.7163L19.0588 39.7088L19.0206 39.683C18.9881 39.661 18.9418 39.6293 18.8826 39.5883C18.7643 39.5063 18.5941 39.3869 18.3797 39.232C17.951 38.9223 17.344 38.4704 16.6181 37.8923C15.1689 36.7384 13.2324 35.0714 11.2901 33.0212C7.47381 28.9929 3.33337 23.1699 3.33337 16.6667C3.33337 12.2464 5.08932 8.00716 8.21493 4.88155C11.3405 1.75595 15.5798 0 20 0C24.4203 0 28.6595 1.75595 31.7852 4.88155C34.9108 8.00716 36.6667 12.2464 36.6667 16.6667C36.6667 23.1699 32.5263 28.9929 28.71 33.0212C26.7677 35.0714 24.8312 36.7384 23.382 37.8923C22.6561 38.4704 22.0491 38.9223 21.6204 39.232C21.4059 39.3869 21.2358 39.5063 21.1174 39.5883C21.0582 39.6293 21.012 39.661 20.9795 39.683L20.9413 39.7088L20.9302 39.7163L20.9267 39.7187C20.9262 39.719 20.9245 39.7201 20 38.3333ZM20 38.3333L20.9245 39.7201C20.3647 40.0933 19.6345 40.0927 19.0746 39.7195L20 38.3333ZM20 13.3333C18.1591 13.3333 16.6667 14.8257 16.6667 16.6667C16.6667 18.5076 18.1591 20 20 20C21.841 20 23.3334 18.5076 23.3334 16.6667C23.3334 14.8257 21.841 13.3333 20 13.3333ZM13.3334 16.6667C13.3334 12.9848 16.3181 10 20 10C23.6819 10 26.6667 12.9848 26.6667 16.6667C26.6667 20.3486 23.6819 23.3333 20 23.3333C16.3181 23.3333 13.3334 20.3486 13.3334 16.6667Z"/></svg><h4>Adresse</h4><p>Sofienberggt 19, 0558 Oslo</p><p>Pb. 4644 Sofienberg, 0506 Oslo</p></div><div class="contact-email"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M33.3333 6.66675H6.66659C4.83325 6.66675 3.34992 8.16675 3.34992 10.0001L3.33325 30.0001C3.33325 31.8334 4.83325 33.3334 6.66659 33.3334H33.3333C35.1666 33.3334 36.6666 31.8334 36.6666 30.0001V10.0001C36.6666 8.16675 35.1666 6.66675 33.3333 6.66675ZM33.3333 13.3334L19.9999 21.6667L6.66659 13.3334V10.0001L19.9999 18.3334L33.3333 10.0001V13.3334Z"/></svg><h4>E-post</h4><p><a href="mailto:hei@mills.no">hei@mills.no</a></p><p><a href="mailto:forbrukerservice@mills.no">forbrukerservice@mills.no</a></p></div></div></div>			</div>
+									<div class="footer-widgets privacy-widgets">
+				<div class="privacy-widget footer-widget"><div class="mills-privacy wp-block-mills-block-privacy">
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:130px">
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" src="https://mills.no/content/uploads/sites/5/2022/09/Mills-logo-farger.svg" alt="" class="wp-image-1683" width="110" height="68"/></figure></div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p>Mills AS © Vi tar forbehold om feil på våre nettsider.&nbsp;<a href="https://mills.no/personvernerklaering/">Her finner du vår personvernerklæring</a>.<br>Ønsker du å reklamere på et av våre produkter?&nbsp;<a href="https://mills.no/kontakt/reklamasjonsskjema/">Her finner du reklamasjonsskjema.</a></p>
+</div>
+</div>
+
+</div></div>			</div>
+			</div>
+</footer>
+</div><!-- .site -->
+
+	<style>.skip-link.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.skip-link.screen-reader-text:focus{background-color:var(--wp--custom--t-2-skip-link--background,#f0f0f1);clip-path:none;clip:auto!important;color:var(--wp--custom--t-2-skip-link--color,#2271b1);display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-size:.875rem;font-weight:600;height:auto;left:.3125rem;line-height:normal;padding:.9375rem 1.4375rem .875rem;text-decoration:none;top:.3125rem;width:auto;z-index:100000}</style>
+		<script>!function(){var e,t,n,i=document.querySelector("main");i&&(e=document.body,(t=i.id)||(t="t2--skip-link--target",i.id=t),(n=document.createElement("a")).classList.add("skip-link","screen-reader-text"),n.href="#"+t,n.innerHTML="Hopp til innhold",e.insertAdjacentElement("afterbegin",n))}();</script>
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD99Q6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-core-columns-layout-1.wp-container-core-columns-layout-1{flex-wrap:nowrap;}.wp-container-core-columns-layout-2.wp-container-core-columns-layout-2{flex-wrap:nowrap;}
+</style>
+<script type="text/javascript" id="dekodegtm-frontend-js-extra">
+/* <![CDATA[ */
+var dekodeGTMGlobals = {"dataLayer_content":{"pagePostType":"recipe","pagePostType2":"single-recipe","pagePostAuthor":"dekode"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://mills.no/content/plugins/dekode-gtm-plugin/build/frontend.js?ver=46f200e0a7b2d9af81df" id="dekodegtm-frontend-js"></script>
+<script type="text/javascript" src="https://mills.no/content/themes/mills/build/index.js?ver=045563f5822a91cd70be89eac9a847dc" id="mills-js"></script>
+<script type="text/javascript" data-cookieconsent="ignore" src="https://mills.no/content/plugins/facetwp/assets/js/dist/front.min.js?ver=4.2.12" id="mills-facetwp-js"></script>
+<script type="text/javascript" src="https://mills.no/vita-hjertego/wp-includes/js/comment-reply.min.js?ver=6.4.5" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script defer type="text/javascript" src="https://mills.no/content/plugins/akismet/_inc/akismet-frontend.js?ver=1704837122" id="akismet-frontend-js"></script>
+</body>
+</html>

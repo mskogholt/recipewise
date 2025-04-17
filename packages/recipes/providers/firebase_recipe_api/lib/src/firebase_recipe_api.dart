@@ -13,7 +13,7 @@ class FirebaseRecipeApi implements RecipeApi {
   ) {
     final data = snapshot.data();
     return Recipe(
-      id: data?['id'] as String,
+      id: snapshot.id,
       title: data?['title'] as String,
       description: data?['description'] as String,
       imageUrl: data?['imageUrl'] as String,
@@ -26,18 +26,20 @@ class FirebaseRecipeApi implements RecipeApi {
       categories: data?['categories'] as String,
       tags: data?['tags'] as String,
       collections: data?['collections'] as String,
-      directions: data?['directions'] as String,
-      ingredients: data?['ingredients'] is Iterable
-          ? (data?['ingredients'] as List).map(
-              (ingredient) {
-                return Ingredient(
-                  name: ingredient['name'] as String,
-                  amount: ingredient['amount'] as double,
-                  unit: ingredient['unit'] as String,
-                );
-              },
-            ).toList()
-          : const [],
+      directions: (data?['directions'] as List).map(
+        (direction) {
+          return direction as Map<String, dynamic>;
+          // return (direction as Map<String, dynamic>)
+          //     .map((String key, dynamic value) {
+          //   return MapEntry(key, value as String);
+          // });
+        },
+      ).toList(),
+      ingredients: (data?['ingredients'] as List).map(
+        (ingredient) {
+          return ingredient as Map<String, dynamic>;
+        },
+      ).toList(),
     );
   }
 
@@ -57,13 +59,7 @@ class FirebaseRecipeApi implements RecipeApi {
       'tags': recipe.tags,
       'collections': recipe.collections,
       'directions': recipe.directions,
-      'ingredients': recipe.ingredients.map((ingredient) {
-        return {
-          'name': ingredient.name,
-          'amount': ingredient.amount,
-          'unit': ingredient.unit,
-        };
-      }),
+      'ingredients': recipe.ingredients,
     };
   }
 
@@ -88,16 +84,28 @@ class FirebaseRecipeApi implements RecipeApi {
 
   @override
   Future<void> saveRecipe(String uid, Recipe recipe) {
-    return database
-        .collection('recipes')
-        .doc(uid)
-        .collection('saved_recipes')
-        .withConverter(
-          fromFirestore: fromFirestore,
-          toFirestore: (Recipe recipe, _) => toFirestore(recipe),
-        )
-        .doc(recipe.id)
-        .set(recipe);
+    if (recipe.id != '') {
+      return database
+          .collection('recipes')
+          .doc(uid)
+          .collection('saved_recipes')
+          .withConverter(
+            fromFirestore: fromFirestore,
+            toFirestore: (Recipe recipe, _) => toFirestore(recipe),
+          )
+          .doc(recipe.id)
+          .set(recipe);
+    } else {
+      return database
+          .collection('recipes')
+          .doc(uid)
+          .collection('saved_recipes')
+          .withConverter(
+            fromFirestore: fromFirestore,
+            toFirestore: (Recipe recipe, _) => toFirestore(recipe),
+          )
+          .add(recipe);
+    }
   }
 
   @override
@@ -113,7 +121,6 @@ class FirebaseRecipeApi implements RecipeApi {
 
   @override
   Future<void> close() {
-    // TODO(mskogholt): implement close
     throw UnimplementedError();
   }
 }

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:authentication_repository/authentication_repository.dart';
 import 'package:recipe_repository/recipe_repository.dart';
+import 'package:recipewise/core/widgets/expandable_fab.dart';
 
 import 'package:recipewise/recipe_list/bloc/recipe_list_bloc.dart';
+import 'package:recipewise/recipe_list/widgets/recipe_list.dart';
+import 'package:recipewise/recipe_web_import/widgets/import_recipe_widget.dart';
+
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 import 'package:recipewise/recipe_page/views/recipe_page.dart';
 
@@ -13,38 +16,59 @@ class RecipeListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => RecipeListBloc(
-        recipeRepository: context.read<RecipeRepository>(),
-      )..add(const RecipeListSubscribedEvent()),
-      child: RecipeListView(),
-    );
-  }
-}
-
-class RecipeListView extends StatelessWidget {
-  const RecipeListView({super.key});
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // context.read<RecipeListBloc>().add(
-          //       RecipeAdded(
-          //         recipeToAdd: Recipe(
-          //           id: 'Cranberry Cheeseball',
-          //           title: 'Cranberry Cheeseball',
-          //           description:
-          //               "This cranberry cheese ball with orange zest, sharp white Cheddar cheese, and garlic is simply delicious. The red and green color combination from cranberries and chives make it look extra festive and it's the perfect holiday appetizer.",
-          //           imageUrl:
-          //               'https://www.allrecipes.com/thmb/2oUZc4nK-xuUYYPkIhGLD5SU6Yg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8726774-Cranberry-Cheese-Ball-ddmfs-hero-4x3-17403-29c16f7a15dc41df9434296721e8e641.jpg',
-          //         ),
-          //       ),
-          //     );
-        },
-        child: Icon(Icons.add),
+      // TODO(mskogholt): should come from theme
+      // backgroundColor: Colors.white,
+      floatingActionButton: ExpandableFab(
+        distance: 50,
+        children: [
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (buildContext) {
+                    return BlocProvider(
+                      create: (innerContext) {
+                        return RecipeBloc(
+                          recipe: Recipe.empty(),
+                          recipeRepository: context.read<RecipeRepository>(),
+                        );
+                      },
+                      child: RecipePage(),
+                    );
+                  },
+                ),
+              );
+            },
+            child: Text('Create new recipe'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (innerContext) {
+                  return RepositoryProvider.value(
+                    value: RepositoryProvider.of<RecipeRepository>(context),
+                    child: SingleChildScrollView(
+                      child: Container(
+                        padding: EdgeInsets.only(
+                            bottom: MediaQuery.of(innerContext).viewInsets.bottom),
+                        child: ImportRecipeWidget(),
+                      ),
+                    ),
+                  );
+                },
+                isScrollControlled: true,
+              );
+            },
+            // style: TextButton.styleFrom(
+            //   backgroundColor: Theme.of(context).colorScheme.primary,
+            //   foregroundColor: Colors.white,
+            // ),
+            child: Text('Import from the web'),
+          ),
+        ],
       ),
       body: SafeArea(
         child: BlocBuilder<RecipeListBloc, RecipeListState>(
@@ -66,55 +90,6 @@ class RecipeListView extends StatelessWidget {
           },
         ),
       ),
-    );
-  }
-}
-
-class RecipeList extends StatelessWidget {
-  const RecipeList({
-    super.key,
-    required this.recipes,
-  });
-
-  final List<Recipe> recipes;
-
-  @override
-  Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    return ListView.builder(
-      itemBuilder: (context, index) {
-        Recipe recipe = recipes[index];
-        return ListTile(
-          onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {
-                  return BlocProvider(
-                    create: (context) {
-                      return RecipeBloc(
-                        recipe: recipe,
-                        recipeRepository: context.read<RecipeRepository>(),
-                      );
-                    },
-                    child: RecipePage(),
-                  );
-                },
-              ),
-            );
-          },
-          leading: Image.network(
-              'https://cors-proxy.logmeinmail.workers.dev/?url=${recipe.imageUrl}'),
-          title: Text(
-            recipe.title,
-            style: textTheme.displaySmall?.copyWith(
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          trailing: Icon(Icons.chevron_right),
-        );
-      },
-      itemCount: recipes.length,
     );
   }
 }

@@ -20,14 +20,19 @@ class IngredientListWidget extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Theme.of(context).scaffoldBackgroundColor,
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
-          BoxShadow(
-            color: Colors.grey.shade600,
-            offset: Offset(0, 2),
-            blurRadius: 5,
-          ),
+          Theme.of(context).brightness == Brightness.light
+              ? BoxShadow(
+                  color: Colors.grey.shade600,
+                  offset: Offset(0, 2),
+                  blurRadius: 5,
+                )
+              : BoxShadow(
+                  color: Colors.grey.shade600,
+                  spreadRadius: 0.2,
+                ),
         ],
       ),
       child: Padding(
@@ -67,10 +72,22 @@ class IngredientListWidget extends StatelessWidget {
 }
 
 class IngredientButton extends StatelessWidget {
-  const IngredientButton({
+  IngredientButton({
     super.key,
     required this.ingredient,
-  });
+  })  : nameController = TextEditingController.fromValue(
+          TextEditingValue(text: ingredient.name),
+        ),
+        amountController = TextEditingController.fromValue(
+          TextEditingValue(text: ingredient.amount.toString()),
+        ),
+        unitController = TextEditingController.fromValue(
+          TextEditingValue(text: ingredient.unit.name),
+        );
+
+  final TextEditingController nameController;
+  final TextEditingController amountController;
+  final TextEditingController unitController;
 
   final Ingredient ingredient;
 
@@ -84,11 +101,9 @@ class IngredientButton extends StatelessWidget {
 
     final fraction = MixedFraction.fromDouble(amount, precision: 0.011);
 
-    final String amountText =
-        fraction.whole == 0.0 ? '' : fraction.whole.toString();
-    final String fractionalAmountText = fraction.numerator == 0
-        ? ''
-        : '${fraction.numerator}/${fraction.denominator}';
+    final String amountText = fraction.whole == 0.0 ? '' : fraction.whole.toString();
+    final String fractionalAmountText =
+        fraction.numerator == 0 ? '' : '${fraction.numerator}/${fraction.denominator}';
     final bool hasAmount = fraction.whole > 0 || fraction.numerator > 0;
 
     return Padding(
@@ -96,8 +111,11 @@ class IngredientButton extends StatelessWidget {
       child: FilledButton(
         style: FilledButton.styleFrom(
           backgroundColor:
-              Theme.of(context).colorScheme.primary.withOpacity(0.08),
-          foregroundColor: Colors.black,
+              Theme.of(context).colorScheme.primary.withValues(alpha: 0.08),
+          // TODO(mskogholt): Black and white are not theme's text color
+          foregroundColor: Theme.of(context).brightness == Brightness.light
+              ? Colors.black
+              : Colors.white,
         ),
         onLongPress: () {
           context.read<RecipeBloc>().add(
@@ -118,6 +136,9 @@ class IngredientButton extends StatelessWidget {
                         bottom: MediaQuery.of(innerContext).viewInsets.bottom),
                     child: EditIngredientWidget(
                       ingredient: ingredient,
+                      nameController: nameController,
+                      amountController: amountController,
+                      unitController: unitController,
                     ),
                   ),
                 ),
@@ -153,8 +174,8 @@ class IngredientButton extends StatelessWidget {
                             ),
                             TextSpan(
                               text: hasAmount
-                                  ? ' ${ingredient.unit}'
-                                  : ingredient.unit,
+                                  ? ' ${ingredient.unit.name}'
+                                  : ingredient.unit.name,
                             ),
                           ],
                         ),
@@ -177,9 +198,15 @@ class IngredientButton extends StatelessWidget {
 }
 
 class NewIngredientButton extends StatelessWidget {
-  const NewIngredientButton({
+  NewIngredientButton({
     super.key,
-  });
+  })  : nameController = TextEditingController(),
+        amountController = TextEditingController(),
+        unitController = TextEditingController();
+
+  final TextEditingController nameController;
+  final TextEditingController amountController;
+  final TextEditingController unitController;
 
   @override
   Widget build(BuildContext context) {
@@ -197,7 +224,7 @@ class NewIngredientButton extends StatelessWidget {
           final ingredient = Ingredient(
             name: '',
             amount: 0,
-            unit: '',
+            unit: NoUnit(),
           );
           context.read<RecipeBloc>().add(
                 RecipeIngredientAddedEvent(
@@ -215,6 +242,9 @@ class NewIngredientButton extends StatelessWidget {
                         bottom: MediaQuery.of(innerContext).viewInsets.bottom),
                     child: EditIngredientWidget(
                       ingredient: ingredient,
+                      nameController: nameController,
+                      amountController: amountController,
+                      unitController: unitController,
                     ),
                   ),
                 ),
@@ -247,30 +277,25 @@ class NewIngredientButton extends StatelessWidget {
 }
 
 class EditIngredientWidget extends StatelessWidget {
-  EditIngredientWidget({
+  const EditIngredientWidget({
     super.key,
     required this.ingredient,
-  })  : nameController = TextEditingController.fromValue(
-          TextEditingValue(text: ingredient.name),
-        ),
-        amountController = TextEditingController.fromValue(
-          TextEditingValue(text: ingredient.amount.toString()),
-        ),
-        unitController = TextEditingController.fromValue(
-          TextEditingValue(text: ingredient.unit),
-        );
+    required this.nameController,
+    required this.amountController,
+    required this.unitController,
+  });
+
+  final Ingredient ingredient;
 
   final TextEditingController nameController;
   final TextEditingController amountController;
   final TextEditingController unitController;
 
-  final Ingredient ingredient;
-
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
-        color: Colors.white,
+      decoration: BoxDecoration(
+        color: Theme.of(context).scaffoldBackgroundColor,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20.0),
           topRight: Radius.circular(20.0),
@@ -338,13 +363,16 @@ class EditIngredientWidget extends StatelessWidget {
             FilledButton(
               onPressed: () {
                 try {
+                  final unit = Unit.fromString(unitController.text);
                   context.read<RecipeBloc>().add(
                         RecipeIngredientChangedEvent(
                           currentIngredient: ingredient,
                           newIngredient: Ingredient(
                             name: nameController.text,
                             amount: double.parse(amountController.text),
-                            unit: unitController.text,
+                            unit: unit is NoUnit
+                                ? NoUnit(name: unitController.text)
+                                : unit,
                           ),
                         ),
                       );

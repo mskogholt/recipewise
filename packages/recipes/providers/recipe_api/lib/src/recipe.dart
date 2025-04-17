@@ -2,28 +2,6 @@
 
 import 'package:equatable/equatable.dart';
 
-class Ingredient extends Equatable {
-  const Ingredient({
-    required this.name,
-    required this.amount,
-    required this.unit,
-  });
-  final String name;
-  final double amount;
-  final String unit;
-
-  @override
-  List<Object?> get props => [name, amount, unit];
-
-  Ingredient copyWith({String? name, double? amount, String? unit}) {
-    return Ingredient(
-      name: name ?? this.name,
-      amount: amount ?? this.amount,
-      unit: unit ?? this.unit,
-    );
-  }
-}
-
 class Recipe extends Equatable {
   const Recipe({
     required this.id,
@@ -43,23 +21,6 @@ class Recipe extends Equatable {
     required this.ingredients,
   });
 
-  Recipe.empty()
-      : id = '',
-        title = '',
-        description = '',
-        imageUrl = '',
-        author = '',
-        datePublished = DateTime.now(),
-        source = '',
-        servings = 0,
-        timePrep = 0,
-        timeTotal = 0,
-        categories = '',
-        tags = '',
-        collections = '',
-        directions = '',
-        ingredients = const [];
-
   final String id;
   final String title;
   final String description;
@@ -77,9 +38,9 @@ class Recipe extends Equatable {
   final String tags;
   final String collections;
 
-  final String directions;
+  final List<Map<String, dynamic>> directions;
 
-  final List<Ingredient> ingredients;
+  final List<Map<String, dynamic>> ingredients;
 
   @override
   List<Object?> get props => [
@@ -97,64 +58,8 @@ class Recipe extends Equatable {
         tags,
         collections,
         directions,
-        ...ingredients,
+        ingredients,
       ];
-
-  Recipe changeServingSize({
-    required int newServings,
-  }) {
-    final multiplier = newServings / servings;
-    final multipliedIngredients = <Ingredient>[];
-
-    for (final ingredient in ingredients) {
-      multipliedIngredients.add(
-        ingredient.copyWith(
-          amount: ingredient.amount * multiplier,
-        ),
-      );
-    }
-
-    return copyWith(
-      servings: newServings,
-      ingredients: multipliedIngredients,
-    );
-  }
-
-  Recipe changeIngredient({
-    required Ingredient currentIngredient,
-    required Ingredient newIngredient,
-  }) {
-    final newIngredients = <Ingredient>[];
-    for (final ingredient in ingredients) {
-      if (ingredient == currentIngredient) {
-        newIngredients.add(newIngredient);
-      } else {
-        newIngredients.add(ingredient);
-      }
-    }
-    return copyWith(ingredients: newIngredients);
-  }
-
-  Recipe addIngredient({
-    required Ingredient newIngredient,
-  }) {
-    final newIngredients = <Ingredient>[
-      ...ingredients,
-      newIngredient,
-    ];
-    return copyWith(ingredients: newIngredients);
-  }
-
-  Recipe deleteIngredient({required Ingredient ingredientToDelete}) {
-    final newIngredients = <Ingredient>[
-      ...ingredients,
-    ]..remove(
-        ingredientToDelete,
-      );
-    return copyWith(
-      ingredients: newIngredients,
-    );
-  }
 
   Recipe copyWith({
     String? title,
@@ -169,8 +74,8 @@ class Recipe extends Equatable {
     String? categories,
     String? tags,
     String? collections,
-    String? directions,
-    List<Ingredient>? ingredients,
+    List<Map<String, dynamic>>? directions,
+    List<Map<String, dynamic>>? ingredients,
   }) {
     return Recipe(
       id: id,

@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:recipe_repository/recipe_repository.dart';
-import 'package:recipewise/authentication/authentication.dart';
+import 'package:recipewise/core/widgets/recipe_image.dart';
 
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 import 'package:recipewise/recipe_page/widgets/description_widget.dart';
 import 'package:recipewise/recipe_page/widgets/directions_widget.dart';
-import 'package:recipewise/recipe_page/widgets/image_widget.dart';
 import 'package:recipewise/recipe_page/widgets/ingredient_list_widget.dart';
+import 'package:recipewise/recipe_page/widgets/recipe_image_widget.dart';
 import 'package:recipewise/recipe_page/widgets/title_widget.dart';
 
 class RecipePage extends StatelessWidget {
@@ -29,14 +29,13 @@ class RecipeView extends StatelessWidget {
       builder: (context, state) {
         Recipe recipe = state.recipe;
         return Scaffold(
-          backgroundColor: Colors.white,
           appBar: AppBar(
             title: const Text('Recipe'),
             actions: <Widget>[
               if (state.changed)
                 Padding(
                   padding: const EdgeInsets.only(right: 8.0),
-                  child: FilledButton(
+                  child: ElevatedButton(
                     onPressed: () {
                       context.read<RecipeBloc>().add(RecipeSavedEvent());
                     },
@@ -56,7 +55,7 @@ class RecipeView extends StatelessWidget {
                 children: [
                   ConstrainedBox(
                     constraints: BoxConstraints(maxHeight: 300),
-                    child: ImageWidget(imageUrl: recipe.imageUrl),
+                    child: RecipeImageWidget(recipe: recipe),
                   ),
                   TitleWidget(
                     title: recipe.title,
@@ -65,7 +64,6 @@ class RecipeView extends StatelessWidget {
                   DescriptionWidget(
                     description: recipe.description,
                   ),
-
                   // Ingredients
                   Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -75,7 +73,9 @@ class RecipeView extends StatelessWidget {
                     ),
                   ),
                   // Directions
-                  DirectionsWidget(recipe: recipe),
+                  DirectionListWidget(
+                    directions: recipe.directions,
+                  ),
                 ],
               ),
             ),

@@ -39,7 +39,11 @@ class RecipeListBloc extends Bloc<RecipeListEvent, RecipeListState> {
         status: RecipeListStatus.success,
         recipes: recipes,
       ),
-      onError: (_, __) => state.copyWith(status: RecipeListStatus.failure),
+      onError: (_, __) {
+        print(_);
+        print(__);
+        return state.copyWith(status: RecipeListStatus.failure);
+      },
     );
   }
 }

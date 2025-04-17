@@ -1,0 +1,2 @@
+/home/martin/Documents/Projects/recipewise/android/app/.cxx/Debug/y5y1v331/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/martin/Documents/Projects/recipewise/android/app/.cxx/Debug/y5y1v331/armeabi-v7a/CMakeFiles/rebuild_cache.dir

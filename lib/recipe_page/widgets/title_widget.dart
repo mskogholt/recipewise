@@ -3,14 +3,21 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 
 class TitleWidget extends StatelessWidget {
-  const TitleWidget({
+  TitleWidget({
     super.key,
     required this.title,
     required this.author,
-  });
+  })  : titleController = TextEditingController.fromValue(
+          TextEditingValue(text: title),
+        ),
+        authorController = TextEditingController.fromValue(
+          TextEditingValue(text: author),
+        );
 
   final String title;
   final String author;
+  final TextEditingController titleController;
+  final TextEditingController authorController;
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +35,8 @@ class TitleWidget extends StatelessWidget {
                   padding: EdgeInsets.only(
                       bottom: MediaQuery.of(innerContext).viewInsets.bottom),
                   child: EditTitleWidget(
-                    title: title,
-                    author: author,
+                    titleController: titleController,
+                    authorController: authorController,
                   ),
                 ),
               ),
@@ -42,14 +49,19 @@ class TitleWidget extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Theme.of(context).scaffoldBackgroundColor,
             borderRadius: BorderRadius.circular(10.0),
             boxShadow: [
-              BoxShadow(
-                color: Colors.grey.shade600,
-                offset: Offset(0, 2),
-                blurRadius: 5,
-              ),
+              Theme.of(context).brightness == Brightness.light
+                  ? BoxShadow(
+                      color: Colors.grey.shade600,
+                      offset: Offset(0, 2),
+                      blurRadius: 5,
+                    )
+                  : BoxShadow(
+                      color: Colors.grey.shade600,
+                      spreadRadius: 0.2,
+                    ),
             ],
           ),
           child: Padding(
@@ -100,27 +112,20 @@ class TitleWidget extends StatelessWidget {
 }
 
 class EditTitleWidget extends StatelessWidget {
-  EditTitleWidget({
+  const EditTitleWidget({
     super.key,
-    required this.title,
-    required this.author,
-  })  : titleController = TextEditingController.fromValue(
-          TextEditingValue(text: title),
-        ),
-        authorController = TextEditingController.fromValue(
-          TextEditingValue(text: author),
-        );
+    required this.titleController,
+    required this.authorController,
+  });
 
-  final String title;
-  final String author;
   final TextEditingController titleController;
   final TextEditingController authorController;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
-        color: Colors.white,
+      decoration: BoxDecoration(
+        color: Theme.of(context).scaffoldBackgroundColor,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20.0),
           topRight: Radius.circular(20.0),

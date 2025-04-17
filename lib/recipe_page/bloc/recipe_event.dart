@@ -72,3 +72,17 @@ final class RecipeIngredientChangedEvent extends RecipeEvent {
     required this.newIngredient,
   });
 }
+
+final class RecipeDirectionsChangedEvent extends RecipeEvent {
+  final String newDirections;
+  const RecipeDirectionsChangedEvent({required this.newDirections});
+  @override
+  List<Object> get props => [newDirections];
+}
+
+final class RecipeImageUrlChangedEvent extends RecipeEvent {
+  final String newImageUrl;
+  const RecipeImageUrlChangedEvent({required this.newImageUrl});
+  @override
+  List<Object> get props => [newImageUrl];
+}

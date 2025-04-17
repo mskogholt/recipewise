@@ -10,6 +10,8 @@ dependencies:
   equatable: ^2.0.5
   recipe_api:
     path: ../../providers/recipe_api
+  web_recipe_api:
+    path: ../../providers/web_recipe_api
 
 dev_dependencies:
   mocktail: ^1.0.4

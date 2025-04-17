@@ -3,12 +3,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:recipewise/recipe_page/bloc/recipe_bloc.dart';
 
 class DescriptionWidget extends StatelessWidget {
-  const DescriptionWidget({
+  DescriptionWidget({
     super.key,
     required this.description,
-  });
+  }) : descriptionController = TextEditingController.fromValue(
+          TextEditingValue(text: description),
+        );
 
   final String description;
+  final TextEditingController descriptionController;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -23,7 +27,7 @@ class DescriptionWidget extends StatelessWidget {
                   padding: EdgeInsets.only(
                       bottom: MediaQuery.of(innerContext).viewInsets.bottom),
                   child: EditDescriptionWidget(
-                    description: description,
+                    descriptionController: descriptionController,
                   ),
                 ),
               ),
@@ -46,19 +50,19 @@ class DescriptionWidget extends StatelessWidget {
 }
 
 class EditDescriptionWidget extends StatelessWidget {
-  EditDescriptionWidget({super.key, required this.description})
-      : descriptionController = TextEditingController.fromValue(
-          TextEditingValue(text: description),
-        );
+  const EditDescriptionWidget({
+    super.key,
+    required this.descriptionController,
+  });
 
-  final String description;
   final TextEditingController descriptionController;
 
   @override
   Widget build(BuildContext context) {
+    // TODO(mskogholt): The container and decoration is shared with other components
     return Container(
-      decoration: const BoxDecoration(
-        color: Colors.white,
+      decoration: BoxDecoration(
+        color: Theme.of(context).scaffoldBackgroundColor,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(20.0),
           topRight: Radius.circular(20.0),

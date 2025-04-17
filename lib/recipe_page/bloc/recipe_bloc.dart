@@ -27,6 +27,10 @@ class RecipeBloc extends Bloc<RecipeEvent, RecipeState> {
     on<RecipeIngredientAddedEvent>(_onRecipeIngredientAdded);
     on<RecipeIngredientDeletedEvent>(_onRecipeIngredientDeleted);
     on<RecipeIngredientChangedEvent>(_onRecipeIngredientChanged);
+
+    on<RecipeDirectionsChangedEvent>(_onRecipeDirectionsChanged);
+
+    on<RecipeImageUrlChangedEvent>(_onRecipeImageUrlChangedEvent);
   }
 
   void _onRecipeEvent(
@@ -152,6 +156,63 @@ class RecipeBloc extends Bloc<RecipeEvent, RecipeState> {
   ) {
     recipeRepository.saveRecipe(
       state.recipe,
+    );
+    emit(
+      state.copyWith(
+        recipe: state.recipe,
+        changed: false,
+      ),
+    );
+  }
+
+  void _onRecipeDirectionsChanged(
+    RecipeDirectionsChangedEvent event,
+    Emitter<RecipeState> emit,
+  ) {
+    final directionPattern = RegExp(
+      r'(?<step>(\p{N}+))[\.:]{1}\s?(?<text>(.*))',
+      unicode: true,
+    );
+    final newDirections = <Direction>[];
+    for (String newDirection in event.newDirections.split('\n')) {
+      final match = directionPattern.firstMatch(newDirection);
+      if (match != null) {
+        newDirections.add(
+          Direction(
+            stepNumber: int.parse(match.namedGroup('step') ?? '-1'),
+            text: match.namedGroup('text') ?? '',
+            url: '',
+          ),
+        );
+      } else {
+        if (newDirection.isNotEmpty) {
+          newDirections.add(
+            Direction(stepNumber: -1, text: '[ADD STEP NUMBER] $newDirection', url: ''),
+          );
+        }
+      }
+    }
+    newDirections.sort((a, b) => a.stepNumber.compareTo(b.stepNumber));
+
+    emit(
+      state.copyWith(
+        recipe: state.recipe.copyWith(
+          directions: newDirections,
+        ),
+      ),
+    );
+  }
+
+  void _onRecipeImageUrlChangedEvent(
+    RecipeImageUrlChangedEvent event,
+    Emitter<RecipeState> emit,
+  ) {
+    emit(
+      state.copyWith(
+        recipe: state.recipe.copyWith(
+          imageUrl: event.newImageUrl,
+        ),
+      ),
     );
   }
 }

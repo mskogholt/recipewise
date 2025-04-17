@@ -9,8 +9,7 @@ ThemeData darkTheme() {
   );
   return ThemeData.from(colorScheme: colorScheme).copyWith(
     inputDecorationTheme: InputDecorationTheme(
-      contentPadding:
-          const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+      contentPadding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
       border: const OutlineInputBorder(
         borderRadius: BorderRadius.all(Radius.circular(32.0)),
       ),
@@ -21,6 +20,17 @@ ThemeData darkTheme() {
       focusedBorder: OutlineInputBorder(
         borderSide: BorderSide(color: colorScheme.primary, width: 2.0),
         borderRadius: const BorderRadius.all(Radius.circular(32.0)),
+      ),
+    ),
+    floatingActionButtonTheme: FloatingActionButtonThemeData(
+      backgroundColor: colorScheme.primary,
+      foregroundColor: colorScheme.onPrimary,
+      shape: CircleBorder(),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        foregroundColor: colorScheme.primaryContainer,
+        backgroundColor: colorScheme.primary,
       ),
     ),
   );
@@ -34,9 +44,9 @@ ThemeData lightTheme() {
   return ThemeData.from(
     colorScheme: colorScheme,
   ).copyWith(
+    scaffoldBackgroundColor: Colors.white,
     inputDecorationTheme: InputDecorationTheme(
-      contentPadding:
-          const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+      contentPadding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
       border: const OutlineInputBorder(
         borderRadius: BorderRadius.all(Radius.circular(32.0)),
       ),
@@ -49,15 +59,16 @@ ThemeData lightTheme() {
         borderRadius: const BorderRadius.all(Radius.circular(32.0)),
       ),
     ),
-    iconButtonTheme: IconButtonThemeData(
-        style: OutlinedButton.styleFrom(
-      foregroundColor: colorScheme.primary,
-      shape: CircleBorder(
-        side: BorderSide(
-          width: 1.0,
-          color: colorScheme.primary,
-        ),
+    floatingActionButtonTheme: FloatingActionButtonThemeData(
+      backgroundColor: colorScheme.primary,
+      foregroundColor: colorScheme.onPrimary,
+      shape: CircleBorder(),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        foregroundColor: colorScheme.primaryContainer,
+        backgroundColor: colorScheme.primary,
       ),
-    )),
+    ),
   );
 }
